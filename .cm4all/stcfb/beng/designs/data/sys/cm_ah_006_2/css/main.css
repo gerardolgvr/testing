@@ -1,0 +1,262 @@
+@charset "utf-8";
+/* $Revision: 4458 $ */
+body, html {
+	background-color	: transparent;
+	font-family			: Arial, Helvetica, Geneva, sans-serif;
+	font-size			: 1.0em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin			: 1.3em 0 0.5em 0;
+}
+
+h2 { font-size		: 1.5em; }
+h3 { font-size		: 1.4em; }
+h4 { font-size		: 1.0em; }
+h1, .cm-h1 { font-size		: 1.8em;}
+
+p {
+	line-height		: 1.3em;
+	margin			: 0 0 1em 0;
+}
+ul, ol, dl { margin: 0 0 1em 1em } /* LTR */
+li {
+    margin-left: 0.8em; /* LTR */
+    line-height: 1.5em;
+}
+
+.clearer {
+	clear			: both;
+}
+
+/* the clearfix : ------------------ */
+.clearfix {
+	display			: inline-block;
+}
+.clearfix[class] {
+	display			: block;
+	overflow		: hidden;
+}
+
+/*         ______
+__________/ Page \__________________________________________________________________
+--------------------------------------------------------------------------------------- */
+
+
+#border_top {
+	position			: relative;
+	width				: 760px;
+	height				: 18px;
+	margin				: 0 auto;
+	background			: url('../img/border_top.png') top left no-repeat;
+}
+
+#border_top_inner {
+	position			: relative;
+	top					: 17px;
+	margin				: 0 10px 0 10px;
+	background-color	: transparent;
+	height				: 13px;
+}
+
+#page {
+	width				: 760px;
+	height				: auto;
+	margin-left			: auto;
+	margin-right		: auto;
+	background			: url('../img/border_middle.png') top left repeat-y;
+}
+
+#border_bottom {
+	width				: 760px;
+	height				: 30px;
+	margin-left			: auto;
+	margin-right		: auto;
+	background			: url('../img/border_bottom.png') top left no-repeat;
+}
+
+#border_bottom_inner {
+	margin				: 0 10px 9px 10px;
+	background-color	: transparent;
+	height				: 13px;
+}
+
+
+/*         ______
+__________/ main \__________________________________________________________________
+--------------------------------------------------------------------------------------- */
+
+#content_wrapper {
+	position		: relative;
+	margin			: 0 auto;
+	width			: 740px;
+}
+
+#content_left_wrapper {
+	width				: 190px;
+}
+
+.content_sidebar {
+	padding				: 10px 0 0 10px;
+}
+
+#content_main_wrapper {
+	width				: 550px;
+}
+
+.content_main {
+	padding				: 10px 10px 0 10px;
+}
+
+#keyvisual {
+	background-position	: top left;
+	background-repeat	: no-repeat;
+	background-color	: transparent;
+	width				: 530px;
+	height				: 140px;
+}
+
+
+/*         ________
+__________/ header \__________________________________________________________________
+--------------------------------------------------------------------------------------- */
+
+#header {
+	position			: relative;
+	height				: 105px;
+	width               : 740px;
+	text-align			: left;
+	margin				: 0 10px;
+	overflow			: hidden;
+}
+
+#logo {
+	position			: absolute;
+	left				: 0;
+	top					: 0;
+	width               : 740px;
+    height              : 105px;
+    overflow			: hidden;
+}
+
+#title_wrapper {
+	position			: relative;
+	display             : inline-block;
+	left                : 10px;
+	top:				30px;
+}
+
+#title_wrapper h1 {
+	margin				: 0;
+}
+
+#title_wrapper h2 {
+	margin				: 10px 0 0 0;
+}
+
+/*         __________
+__________/ sidebars \__________________________________________________________________
+--------------------------------------------------------------------------------------- */
+#widgetbar_page_1,
+#widgetbar_page_2 {
+	overflow			: hidden;
+	width				: 180px;
+}
+
+#widgetbar_site_1,
+#widgetbar_site_2 {
+	overflow			: hidden;
+	width				: 180px;
+}
+
+#widgetbar_page_1 div.cm_widget,
+#widgetbar_page_2 div.cm_widget,
+#widgetbar_site_1 div.cm_widget,
+#widgetbar_site_2 div.cm_widget {
+	margin: 5px 0;
+}
+
+/*         ____________
+__________/ navigation \__________________________________________________________________
+--------------------------------------------------------------------------------------- */
+#cm_navigation {
+	margin				: 0 0 0 0;
+	width				: 180px;
+	overflow			: hidden;
+}
+
+#cm_navigation ul {
+	margin				: 0 0 0 0;
+	list-style-type		: none;
+}
+#cm_navigation ul li {
+	margin				: 0 1px 1px 0;
+}
+
+#cm_navigation ul li a {
+	display				: block;
+	line-height			: 30px;
+	padding-left		: 20px;
+	text-decoration		: none;
+}
+
+#cm_navigation ul li.cm_current a {
+}
+
+/*         _______________
+__________/ Subnavigation \__________________________________________________________________
+--------------------------------------------------------------------------------------- */
+
+#cm_navigation ul.cm_subnavigation {
+	margin				: 0;
+	list-style-type		: none;
+}
+
+#cm_navigation ul.cm_subnavigation li {
+	margin				: 1px 0 0 0;
+}
+
+#cm_navigation ul.cm_subnavigation li a {
+	display				: block;
+	line-height			: 25px;
+	padding-left		: 30px;
+	text-decoration		: none;
+}
+
+#cm_navigation ul.cm_subnavigation li.cm_current a {
+}
+
+/*         ___________________
+__________/ SUB Subnavigation \__________________________________________________________
+--------------------------------------------------------------------------------------- */
+
+#cm_navigation ul.cm_subnavigation li ul.cm_subnavigation {
+	margin				: 0;
+	list-style-type		: none;
+}
+
+#cm_navigation ul.cm_subnavigation li ul.cm_subnavigation li {
+	margin				: 1px 0 0 0;
+}
+
+#cm_navigation ul.cm_subnavigation li ul.cm_subnavigation li a {
+	display				: block;
+	line-height			: 25px;
+	padding-left		: 40px;
+	text-decoration		: none;
+}
+
+#cm_navigation ul.cm_subnavigation li ul.cm_subnavigation li.cm_current a {
+}
+
+/*         ________
+__________/ footer \__________________________________________________________________
+--------------------------------------------------------------------------------------- */
+
+#footer {
+	color			: #555555;
+	text-align		: center;
+	margin          : 0 10px;
+	padding			: 10px;
+	overflow		: hidden;
+}

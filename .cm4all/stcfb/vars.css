@@ -1,0 +1,654 @@
+.cm-offline-content {
+    color: #222020;
+    background-color: #FBFAF8;
+}
+@charset "utf-8";
+body {
+	font-family		: Arial, Helvetica, sans-serif;
+	font-size		: 12px;
+	font-weight		: normal;
+	font-style		: normal;
+	background-color: #2B2B2B;
+}
+
+h1,h2,h3 {
+	color			: #B35C1A;
+}
+
+h1, .cm-h1 {
+	font-family		: Tahoma, Geneva, sans-serif;
+	font-size		: 16px;
+	font-weight		: bold;
+	font-style		: normal;
+}
+
+h2 {
+	font-family		: Tahoma, Geneva, sans-serif;
+	font-size		: 14px;
+	font-weight		: bold;
+	font-style		: normal;
+}
+
+h3 {
+	font-family		: Arial, Helvetica, sans-serif;
+	font-size		: 12px;
+	font-weight		: bold;
+	font-style		: normal;
+}
+
+h4, h5, h6 {
+	font-family		: Tahoma, Geneva, sans-serif;
+}
+
+a {
+	color			: #222020;
+}
+
+a:hover {
+	color			: #B35C1A;
+}
+
+
+/* ################################################## */
+/* ################ INPUT ELEMENTS ################## */
+/* ################################################## */
+#page .cm_widget input[type='text'], #page .cm_widget input[type='date'], #page .cm_widget input[type='datetime'], 
+#page .cm_widget input[type='email'], #page .cm_widget input[type='number'], #page .cm_widget input[type='password'],
+#page .cm_widget input[type='search'], #page .cm_widget input[type='tel'], #page .cm_widget input[type='time'],
+#page .cm_widget input[type='url'], #page .cm_widget textarea, #page .cm_widget select,
+#page .cm_widget button, #page .cm_widget input[type='button'], #page .cm_widget input[type='submit'], #page .cm_widget input[type='reset'] {
+	border-radius:		0px;
+	padding:			9px 14px;
+	color:				#222020;
+	background-color:	#FBFAF8;
+	background-color:	rgba(, , , 0.08);
+	background-color:	rgba(34,32,32,0.08);
+	border:				1px solid rgba(, , , 0.15);
+	border:				1px solid rgba(34,32,32,0.15);
+	-webkit-transition:	color 0.3s, background-color 0.3s, box-shadow 0.3s, border 0.3s;
+	-moz-transition:	color 0.3s, background-color 0.3s, box-shadow 0.3s, border 0.3s;
+	-o-transition:		color 0.3s, background-color 0.3s, box-shadow 0.3s, border 0.3s;
+	transition:			color 0.3s, background-color 0.3s, box-shadow 0.3s, border 0.3s;
+	
+	font-family:	Arial, Helvetica, sans-serif;
+	font-size:		12px;
+	font-weight:	normal;
+	font-style:		normal;
+}
+#page .cm_widget button, #page .cm_widget input[type='button'], #page .cm_widget input[type='submit'], #page .cm_widget input[type='reset'] {
+	cursor:			pointer;
+}
+#page .cm_widget input[type='text']:focus, #page .cm_widget input[type='date']:focus, #page .cm_widget input[type='datetime']:focus, 
+#page .cm_widget input[type='email']:focus, #page .cm_widget input[type='number']:focus, #page .cm_widget input[type='password']:focus,
+#page .cm_widget input[type='search']:focus, #page .cm_widget input[type='tel']:focus, #page .cm_widget input[type='time']:focus,
+#page .cm_widget input[type='url']:focus, #page .cm_widget textarea:focus, #page .cm_widget select:focus, #page .cm_widget select:focus option,
+#page .cm_widget button:hover, #page .cm_widget input[type='button']:hover, #page .cm_widget input[type='submit']:hover, #page .cm_widget input[type='reset']:hover {
+	color:				#FFFFFF;
+	color:				#FBFAF8;
+	background-color:	rgba(0,0,0,0.7);
+	background-color:	rgba(, , , 0.7);
+	background-color:	rgba(34,32,32,0.7);
+	box-shadow:			0px 0px 15px rgba(0,0,0,0.3);
+	outline:			none;
+}
+
+.shopWidgetSeperatedDiv input[type='text'], .shopWidgetSeperatedDiv button, .shopWidgetSeperatedDiv input[type='button'], .shopWidgetSeperatedDiv input[type='submit'], .shopWidgetSeperatedDiv input[type='reset'] {
+	padding:		8px 3px;
+	min-width:		45px;
+}	
+.shopWidgetSeperatedDiv button, .shopWidgetSeperatedDiv input[type='button'], .shopWidgetSeperatedDiv input[type='submit'], .shopWidgetSeperatedDiv input[type='reset'] {
+	background-size: 	cover !important;
+	border:				none;
+}
+
+
+
+
+/*         ______
+__________/ main \__________________________________________________________________
+--------------------------------------------------------------------------------------- */
+
+#content_wrapper {
+	background-color	: #FBFAF8;
+	color				: #222020;
+}
+
+.content_main {
+	background-color	: #FBFAF8;
+	color				: #222020;
+	font-family		    : Arial, Helvetica, sans-serif;
+	font-size		    : 12px;
+	font-weight		    : normal;
+	font-style		    : normal;
+}
+
+.content_main h1,
+.content_main h2,
+.content_main h3 {
+	color			    : #B35C1A;
+}
+
+.content_main h1, .content_main .cm-h1 {
+	font-family		    : Tahoma, Geneva, sans-serif;
+	font-size		    : 16px;
+	font-weight		    : bold;
+	font-style		    : normal;
+}
+.content_main h2 {
+	font-family		    : Tahoma, Geneva, sans-serif;
+	font-size		    : 14px;
+	font-weight		    : bold;
+	font-style		    : normal;
+}
+.content_main h3 {
+	font-family		    : Arial, Helvetica, sans-serif;
+	font-size		    : 12px;
+	font-weight		    : bold;
+	font-style		    : normal;
+}
+.content_main a {
+	color				: #222020;
+}
+.content_main a:hover {
+	color				: #B35C1A;
+}
+
+/*         ________
+__________/ header \__________________________________________________________________
+--------------------------------------------------------------------------------------- */
+
+#header {
+	background-color	: #DEC1AB;
+}
+
+#title_wrapper h1 {
+	font-family			: Tahoma, Geneva, sans-serif;
+	font-weight			: normal;
+	font-style			: normal;
+	font-size			: 26px;
+	color				: #30586E;
+}
+
+#title_wrapper h2 {
+	font-family			: Tahoma, Geneva, sans-serif;
+	font-size			: 14px;
+	font-weight			: bold;
+	font-style			: normal;
+	color				: #4D4D4D;
+}
+
+/*         ____________
+__________/ navigation \__________________________________________________________________
+--------------------------------------------------------------------------------------- */
+
+/* NAV NORMAL */
+#cm_navigation ul li a {
+	background-color	: #B35C1A;
+	color				: #FFFFFF;
+	font-family			: Arial, Helvetica, sans-serif;
+	font-style			: normal;
+	font-size			: 12px;
+	font-weight			: normal;
+}
+
+/* NAV MOUSE */
+#cm_navigation ul li a:hover {
+	background-color	: #DEC1AB;
+	color				: #333333;
+}
+
+/* NAV HIGH */
+#cm_navigation ul li.cm_current a {
+	background-color	: #DEC1AB;
+	color				: #333333;
+}
+
+/*         _______________
+__________/ Subnavigation \__________________________________________________________________
+--------------------------------------------------------------------------------------- */
+
+/* SUBNAV NORMAL */
+#cm_navigation ul.cm_subnavigation li a {
+	background-color	: #DEC1AB;
+	color				: #30586E;
+	font-family			: Arial, Helvetica, sans-serif;
+	font-style			: normal;
+	font-size			: 12px;
+	font-weight			: normal;
+}
+
+/* SUBNAV MOUSE */
+#cm_navigation ul.cm_subnavigation li a:hover {
+	background-color	: #E3E3E3;
+	color				: #4D4D4D;
+}
+
+/* SUBNAV HIGH */
+#cm_navigation ul.cm_subnavigation li.cm_current a {
+	background-color	: #E3E3E3;
+	color				: #4D4D4D;
+}
+
+/*         ______________________
+__________/ 3rd level navigation \_______________________________________________________
+--------------------------------------------------------------------------------------- */
+
+/* SUBNAV NORMAL */
+#cm_navigation ul.cm_subnavigation li ul.cm_subnavigation li a {
+	background-color	: #DEC1AB;
+	color				: #30586E;
+	font-family			: Arial, Helvetica, sans-serif;
+	font-style			: normal;
+	font-size			: 12px;
+	font-weight			: normal;
+}
+
+/* SUBNAV MOUSE */
+#cm_navigation ul.cm_subnavigation li ul.cm_subnavigation li a:hover {
+	background-color	: #E3E3E3;
+	color				: #4D4D4D;
+}
+
+/* SUBNAV HIGH */
+#cm_navigation ul.cm_subnavigation li ul.cm_subnavigation li.cm_current a {
+	background-color	: #E3E3E3;
+	color				: #4D4D4D;
+}
+
+/*         ________
+__________/ footer \__________________________________________________________________
+--------------------------------------------------------------------------------------- */
+
+#footer {
+	background-color	: #DEC1AB;
+	color				: #30586E;
+}
+
+#border_bottom_inner {
+	background-color	: #DEC1AB;
+}
+
+#border_top_inner {
+	background-color	: #DEC1AB;
+}
+
+#footer a {
+	color			: #30586E;
+}
+
+#footer a:hover {
+	color			: #4D4D4D;
+}
+
+
+/*cm4all-vars-extension-force-color-begin*/
+.cm4all-header-title-color.cm4all-force-color {
+    color: #30586E !important;
+}
+.cm4all-header-title-color.cm4all-force-background-color {
+    background-color: #30586E !important;
+}
+.cm4all-header-title-color.cm4all-force-border-color {
+    border-color: #30586E !important;
+} 
+.cm4all-header-subtitle-color.cm4all-force-color {
+    color: #4D4D4D !important;
+}
+.cm4all-header-subtitle-color.cm4all-force-background-color {
+    background-color: #4D4D4D !important;
+}
+.cm4all-header-subtitle-color.cm4all-force-border-color {
+    border-color: #4D4D4D !important;
+} 
+.cm4all-header-background-color.cm4all-force-color {
+    color: #DEC1AB !important;
+}
+.cm4all-header-background-color.cm4all-force-background-color {
+    background-color: #DEC1AB !important;
+}
+.cm4all-header-background-color.cm4all-force-border-color {
+    border-color: #DEC1AB !important;
+} 
+.cm4all-header-alt-background-color.cm4all-force-color {
+    color: #E3E3E3 !important;
+}
+.cm4all-header-alt-background-color.cm4all-force-background-color {
+    background-color: #E3E3E3 !important;
+}
+.cm4all-header-alt-background-color.cm4all-force-border-color {
+    border-color: #E3E3E3 !important;
+} 
+.cm4all-header-border-color.cm4all-force-color {
+    color: #4581A3 !important;
+}
+.cm4all-header-border-color.cm4all-force-background-color {
+    background-color: #4581A3 !important;
+}
+.cm4all-header-border-color.cm4all-force-border-color {
+    border-color: #4581A3 !important;
+} 
+.cm4all-header-alt-border-color.cm4all-force-color {
+    color: #919191 !important;
+}
+.cm4all-header-alt-border-color.cm4all-force-background-color {
+    background-color: #919191 !important;
+}
+.cm4all-header-alt-border-color.cm4all-force-border-color {
+    border-color: #919191 !important;
+} 
+.cm4all-content-color.cm4all-force-color {
+    color: #222020 !important;
+}
+.cm4all-content-color.cm4all-force-background-color {
+    background-color: #222020 !important;
+}
+.cm4all-content-color.cm4all-force-border-color {
+    border-color: #222020 !important;
+} 
+.cm4all-content-headline-color.cm4all-force-color {
+    color: #B35C1A !important;
+}
+.cm4all-content-headline-color.cm4all-force-background-color {
+    background-color: #B35C1A !important;
+}
+.cm4all-content-headline-color.cm4all-force-border-color {
+    border-color: #B35C1A !important;
+} 
+.cm4all-content-background-color.cm4all-force-color {
+    color: #FBFAF8 !important;
+}
+.cm4all-content-background-color.cm4all-force-background-color {
+    background-color: #FBFAF8 !important;
+}
+.cm4all-content-background-color.cm4all-force-border-color {
+    border-color: #FBFAF8 !important;
+} 
+.cm4all-content-alt-background-color.cm4all-force-color {
+    color: #FFFFFF !important;
+}
+.cm4all-content-alt-background-color.cm4all-force-background-color {
+    background-color: #FFFFFF !important;
+}
+.cm4all-content-alt-background-color.cm4all-force-border-color {
+    border-color: #FFFFFF !important;
+} 
+.cm4all-content-border-color.cm4all-force-color {
+    color: #4581A3 !important;
+}
+.cm4all-content-border-color.cm4all-force-background-color {
+    background-color: #4581A3 !important;
+}
+.cm4all-content-border-color.cm4all-force-border-color {
+    border-color: #4581A3 !important;
+} 
+.cm4all-content-alt-border-color.cm4all-force-color {
+    color: #919191 !important;
+}
+.cm4all-content-alt-border-color.cm4all-force-background-color {
+    background-color: #919191 !important;
+}
+.cm4all-content-alt-border-color.cm4all-force-border-color {
+    border-color: #919191 !important;
+} 
+.cm4all-content-link-color.cm4all-force-color {
+    color: #222020 !important;
+}
+.cm4all-content-link-color.cm4all-force-background-color {
+    background-color: #222020 !important;
+}
+.cm4all-content-link-color.cm4all-force-border-color {
+    border-color: #222020 !important;
+} 
+.cm4all-content-link-hover-color.cm4all-force-color {
+    color: #B35C1A !important;
+}
+.cm4all-content-link-hover-color.cm4all-force-background-color {
+    background-color: #B35C1A !important;
+}
+.cm4all-content-link-hover-color.cm4all-force-border-color {
+    border-color: #222020  !important;
+} 
+.cm4all-sidebar-color.cm4all-force-color {
+    color: #30586E !important;
+}
+.cm4all-sidebar-color.cm4all-force-background-color {
+    background-color: #30586E !important;
+}
+.cm4all-sidebar-color.cm4all-force-border-color {
+    border-color: #30586E !important;
+} 
+.cm4all-sidebar-headline-color.cm4all-force-color {
+    color: #4D4D4D !important;
+}
+.cm4all-sidebar-headline-color.cm4all-force-background-color {
+    background-color: #4D4D4D !important;
+}
+.cm4all-sidebar-headline-color.cm4all-force-border-color {
+    border-color: #4D4D4D !important;
+} 
+.cm4all-sidebar-background-color.cm4all-force-color {
+    color: #DEC1AB !important;
+}
+.cm4all-sidebar-background-color.cm4all-force-background-color {
+    background-color: #DEC1AB !important;
+}
+.cm4all-sidebar-background-color.cm4all-force-border-color {
+    border-color: #DEC1AB !important;
+} 
+.cm4all-sidebar-alt-background-color.cm4all-force-color {
+    color: #E3E3E3 !important;
+}
+.cm4all-sidebar-alt-background-color.cm4all-force-background-color {
+    background-color: #E3E3E3 !important;
+}
+.cm4all-sidebar-alt-background-color.cm4all-force-border-color {
+    border-color: #E3E3E3 !important;
+} 
+.cm4all-sidebar-border-color.cm4all-force-color {
+    color: #4581A3 !important;
+}
+.cm4all-sidebar-border-color.cm4all-force-background-color {
+    background-color: #4581A3 !important;
+}
+.cm4all-sidebar-border-color.cm4all-force-border-color {
+    border-color: #4581A3 !important;
+} 
+.cm4all-sidebar-alt-border-color.cm4all-force-color {
+    color: #919191 !important;
+}
+.cm4all-sidebar-alt-border-color.cm4all-force-background-color {
+    background-color: #919191 !important;
+}
+.cm4all-sidebar-alt-border-color.cm4all-force-border-color {
+    border-color: #919191 !important;
+} 
+.cm4all-sidebar-link-color.cm4all-force-color {
+    color: #30586E !important;
+}
+.cm4all-sidebar-link-color.cm4all-force-background-color {
+    background-color: #30586E !important;
+}
+.cm4all-sidebar-link-color.cm4all-force-border-color {
+    border-color: #30586E !important;
+} 
+.cm4all-sidebar-link-hover-color.cm4all-force-color {
+    color: #4D4D4D !important;
+}
+.cm4all-sidebar-link-hover-color.cm4all-force-background-color {
+    background-color: #4D4D4D !important;
+}
+.cm4all-sidebar-link-hover-color.cm4all-force-border-color {
+    border-color: #30586E  !important;
+} 
+.cm4all-navigation-color.cm4all-force-color {
+    color: #FFFFFF !important;
+}
+.cm4all-navigation-color.cm4all-force-background-color {
+    background-color: #FFFFFF !important;
+}
+.cm4all-navigation-color.cm4all-force-border-color {
+    border-color: #FFFFFF !important;
+} 
+.cm4all-navigation-alt-color.cm4all-force-color {
+    color: #333333 !important;
+}
+.cm4all-navigation-alt-color.cm4all-force-background-color {
+    background-color: #333333 !important;
+}
+.cm4all-navigation-alt-color.cm4all-force-border-color {
+    border-color: #333333 !important;
+} 
+.cm4all-navigation-background-color.cm4all-force-color {
+    color: #B35C1A !important;
+}
+.cm4all-navigation-background-color.cm4all-force-background-color {
+    background-color: #B35C1A !important;
+}
+.cm4all-navigation-background-color.cm4all-force-border-color {
+    border-color: #B35C1A !important;
+} 
+.cm4all-navigation-alt-background-color.cm4all-force-color {
+    color: #DEC1AB !important;
+}
+.cm4all-navigation-alt-background-color.cm4all-force-background-color {
+    background-color: #DEC1AB !important;
+}
+.cm4all-navigation-alt-background-color.cm4all-force-border-color {
+    border-color: #DEC1AB !important;
+} 
+.cm4all-navigation-border-color.cm4all-force-color {
+    color: #4581A3 !important;
+}
+.cm4all-navigation-border-color.cm4all-force-background-color {
+    background-color: #4581A3 !important;
+}
+.cm4all-navigation-border-color.cm4all-force-border-color {
+    border-color: #4581A3 !important;
+} 
+.cm4all-navigation-alt-border-color.cm4all-force-color {
+    color: #919191 !important;
+}
+.cm4all-navigation-alt-border-color.cm4all-force-background-color {
+    background-color: #919191 !important;
+}
+.cm4all-navigation-alt-border-color.cm4all-force-border-color {
+    border-color: #919191 !important;
+} 
+.cm4all-subnavigation-color.cm4all-force-color {
+    color: #30586E !important;
+}
+.cm4all-subnavigation-color.cm4all-force-background-color {
+    background-color: #30586E !important;
+}
+.cm4all-subnavigation-color.cm4all-force-border-color {
+    border-color: #30586E !important;
+} 
+.cm4all-subnavigation-alt-color.cm4all-force-color {
+    color: #4D4D4D !important;
+}
+.cm4all-subnavigation-alt-color.cm4all-force-background-color {
+    background-color: #4D4D4D !important;
+}
+.cm4all-subnavigation-alt-color.cm4all-force-border-color {
+    border-color: #4D4D4D !important;
+} 
+.cm4all-subnavigation-background-color.cm4all-force-color {
+    color: #DEC1AB !important;
+}
+.cm4all-subnavigation-background-color.cm4all-force-background-color {
+    background-color: #DEC1AB !important;
+}
+.cm4all-subnavigation-background-color.cm4all-force-border-color {
+    border-color: #DEC1AB !important;
+} 
+.cm4all-subnavigation-alt-background-color.cm4all-force-color {
+    color: #E3E3E3 !important;
+}
+.cm4all-subnavigation-alt-background-color.cm4all-force-background-color {
+    background-color: #E3E3E3 !important;
+}
+.cm4all-subnavigation-alt-background-color.cm4all-force-border-color {
+    border-color: #E3E3E3 !important;
+} 
+.cm4all-subnavigation-border-color.cm4all-force-color {
+    color: #4581A3 !important;
+}
+.cm4all-subnavigation-border-color.cm4all-force-background-color {
+    background-color: #4581A3 !important;
+}
+.cm4all-subnavigation-border-color.cm4all-force-border-color {
+    border-color: #4581A3 !important;
+} 
+.cm4all-subnavigation-alt-border-color.cm4all-force-color {
+    color: #919191 !important;
+}
+.cm4all-subnavigation-alt-border-color.cm4all-force-background-color {
+    background-color: #919191 !important;
+}
+.cm4all-subnavigation-alt-border-color.cm4all-force-border-color {
+    border-color: #919191 !important;
+} 
+.cm4all-footer-color.cm4all-force-color {
+    color: #30586E !important;
+}
+.cm4all-footer-color.cm4all-force-background-color {
+    background-color: #30586E !important;
+}
+.cm4all-footer-color.cm4all-force-border-color {
+    border-color: #30586E !important;
+} 
+.cm4all-footer-alt-color.cm4all-force-color {
+    color: #4D4D4D !important;
+}
+.cm4all-footer-alt-color.cm4all-force-background-color {
+    background-color: #4D4D4D !important;
+}
+.cm4all-footer-alt-color.cm4all-force-border-color {
+    border-color: #4D4D4D !important;
+} 
+.cm4all-footer-background-color.cm4all-force-color {
+    color: #DEC1AB !important;
+}
+.cm4all-footer-background-color.cm4all-force-background-color {
+    background-color: #DEC1AB !important;
+}
+.cm4all-footer-background-color.cm4all-force-border-color {
+    border-color: #DEC1AB !important;
+} 
+.cm4all-footer-alt-background-color.cm4all-force-color {
+    color: #E3E3E3 !important;
+}
+.cm4all-footer-alt-background-color.cm4all-force-background-color {
+    background-color: #E3E3E3 !important;
+}
+.cm4all-footer-alt-background-color.cm4all-force-border-color {
+    border-color: #E3E3E3 !important;
+} 
+.cm4all-footer-border-color.cm4all-force-color {
+    color: #4581A3 !important;
+}
+.cm4all-footer-border-color.cm4all-force-background-color {
+    background-color: #4581A3 !important;
+}
+.cm4all-footer-border-color.cm4all-force-border-color {
+    border-color: #4581A3 !important;
+} 
+.cm4all-footer-alt-border-color.cm4all-force-color {
+    color: #919191 !important;
+}
+.cm4all-footer-alt-border-color.cm4all-force-background-color {
+    background-color: #919191 !important;
+}
+.cm4all-footer-alt-border-color.cm4all-force-border-color {
+    border-color: #919191 !important;
+} 
+.cm4all-body-background-color.cm4all-force-color {
+    color: #2B2B2B !important;
+}
+.cm4all-body-background-color.cm4all-force-background-color {
+    background-color: #2B2B2B !important;
+}
+.cm4all-body-background-color.cm4all-force-border-color {
+    border-color: #2B2B2B !important;
+}
+/*cm4all-vars-extension-force-color-end*/

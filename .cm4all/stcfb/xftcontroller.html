@@ -1,0 +1,16 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title></title>
+		<script type="text/javascript" >
+		    var src = "Loader.js?load=Dispatcher";
+
+		    if (document.location.pathname.indexOf("/xftcontroller.html") >= 0) {
+                src = parent.parent.cm4all.XFrameTunnel.base + "/res/js/lib/XFrameTunnel/" + src;
+		    }
+		    document.write("<script src='" + src + "'></" + "script>");
+	    </script>
+	</head>
+	<body></body>
+</html>
