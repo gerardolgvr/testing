@@ -151,11 +151,11 @@
           <a href="docs/agradecimientos_studio17mx.pdf" target="_blank" class="btn btn-outline-warning" >Ver frases</a>
         </div>
                 
-        <div class="alert alert-success" role="alert">
-          <p>Recuerda que puedes personalizar tu paquete con lo que quieras.</p>
-          <p class="mb-0">Para más información.</p>
-          <p class="mb-0">¡Contáctanos!</p>
-        </div>
+        <div class="alert alert-success aviso" role="alert">
+					<p>Recuerda que puedes personalizar tu paquete con lo que quieras.</p>
+					<p class="mb-0">Para más información.</p>
+					<p class="mb-0">¡Contáctanos!</p>
+				</div>
       </div>
       <!-- /.row -->
     </div>

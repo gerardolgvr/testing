@@ -129,7 +129,7 @@
                                                 <p class="card-text">Instituto Tecnológico de Chetumal.</p>
                                                 <div class="row">
                                                     <div class="col-12">                                                
-                                                        <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#itch" aria-expanded="false" aria-controls="itch">
+                                                        <button class="btn btn-outline-warning btn-block" type="button" data-toggle="collapse" data-target="#itch" aria-expanded="false" aria-controls="itch">
                                                             Llenar Formulario
                                                         </button>
                                                     </div>                                            
@@ -140,7 +140,7 @@
                                                         <input class="form-control mt-4" id="escuela" name="escuela" type="text" value="itchetumal" hidden> 
                                                     </div>
                                                     <div class="col-12">
-                                                        <button class="btn btn-primary btn-block mt-2">Continuar</button>
+                                                        <button class="btn btn-outline-warning btn-block mt-2">Continuar</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -156,7 +156,7 @@
                                             <p class="card-text">Universidad de Quintana Roo.</p>
                                             <div class="row">
                                                 <div class="col-12">                                                
-                                                    <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#uqroo" aria-expanded="false" aria-controls="uqroo">
+                                                    <button class="btn btn-outline-warning btn-block" type="button" data-toggle="collapse" data-target="#uqroo" aria-expanded="false" aria-controls="uqroo">
                                                         Llenar Formulario
                                                     </button>
                                                 </div>                                            
@@ -167,7 +167,7 @@
                                                     <input class="form-control mt-4" id="escuela" name="escuela" type="text" value="uqroochetumal" hidden> 
                                                 </div>
                                                 <div class="col-12">
-                                                    <button class="btn btn-primary btn-block mt-2">Continuar</button>
+                                                    <button class="btn btn-outline-warning btn-block mt-2">Continuar</button>
                                                 </div>
                                             </div>                                                                             
                                         </div>
@@ -183,7 +183,7 @@
                                             <p class="card-text">Centro de Educación Regional Normal.</p>
                                             <div class="row">
                                                 <div class="col-12">                                                
-                                                    <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#cren" aria-expanded="false" aria-controls="cren">
+                                                    <button class="btn btn-outline-warning btn-block" type="button" data-toggle="collapse" data-target="#cren" aria-expanded="false" aria-controls="cren">
                                                         Llenar Formulario
                                                     </button>
                                                 </div>                                            
@@ -194,7 +194,7 @@
                                                     <input class="form-control mt-4" id="escuela" name="escuela" type="text" value="cren" hidden> 
                                                 </div>
                                                 <div class="col-12">
-                                                    <button class="btn btn-primary btn-block mt-2">Continuar</button>
+                                                    <button class="btn btn-outline-warning btn-block mt-2">Continuar</button>
                                                 </div>
                                             </div> 
                                         </div>
@@ -211,7 +211,7 @@
                                             <p class="card-text">Universidad Politécnica de Bacalar.</p>
                                             <div class="row">
                                                 <div class="col-12">                                                
-                                                    <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#upb" aria-expanded="false" aria-controls="upb">
+                                                    <button class="btn btn-outline-warning btn-block" type="button" data-toggle="collapse" data-target="#upb" aria-expanded="false" aria-controls="upb">
                                                         Llenar Formulario
                                                     </button>
                                                 </div>                                            
@@ -222,7 +222,7 @@
                                                     <input class="form-control mt-4" id="escuela" name="escuela" type="text" value="upb" hidden> 
                                                 </div>
                                                 <div class="col-12">
-                                                    <button class="btn btn-primary btn-block mt-2">Continuar</button>
+                                                    <button class="btn btn-outline-warning btn-block mt-2">Continuar</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -238,7 +238,7 @@
                                             <p class="card-text">Universidad Tecnológica de Chetumal.</p>
                                             <div class="row">
                                                 <div class="col-12">                                                
-                                                    <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#utchetumal" aria-expanded="false" aria-controls="utchetumal">
+                                                    <button class="btn btn-outline-warning btn-block" type="button" data-toggle="collapse" data-target="#utchetumal" aria-expanded="false" aria-controls="utchetumal">
                                                         Llenar Formulario
                                                     </button>
                                                 </div>                                            
@@ -249,7 +249,7 @@
                                                     <input class="form-control mt-4" id="escuela" name="escuela" type="text" value="utchetumal" hidden> 
                                                 </div>
                                                 <div class="col-12">
-                                                    <button class="btn btn-primary btn-block mt-2">Continuar</button>
+                                                    <button class="btn btn-outline-warning btn-block mt-2">Continuar</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -266,7 +266,7 @@
                                             <p class="card-text">Universidad Vizcaya de las Américas.</p>
                                             <div class="row">
                                                 <div class="col-12">                                                
-                                                    <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#vizcaya" aria-expanded="false" aria-controls="vizcaya">
+                                                    <button class="btn btn-outline-warning btn-block" type="button" data-toggle="collapse" data-target="#vizcaya" aria-expanded="false" aria-controls="vizcaya">
                                                         Llenar Formulario
                                                     </button>
                                                 </div>                                            
@@ -277,7 +277,7 @@
                                                     <input class="form-control mt-4" id="escuela" name="escuela" type="text" value="vizcaya" hidden> 
                                                 </div>
                                                 <div class="col-12">
-                                                    <button class="btn btn-primary btn-block mt-2">Continuar</button>
+                                                    <button class="btn btn-outline-warning btn-block mt-2">Continuar</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -293,7 +293,7 @@
                                             <p class="card-text">Universidad UNINOVA.</p>
                                             <div class="row">
                                                 <div class="col-12">                                                
-                                                    <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#uninova" aria-expanded="false" aria-controls="uninova">
+                                                    <button class="btn btn-outline-warning btn-block" type="button" data-toggle="collapse" data-target="#uninova" aria-expanded="false" aria-controls="uninova">
                                                         Llenar Formulario
                                                     </button>
                                                 </div>                                            
@@ -304,7 +304,7 @@
                                                     <input class="form-control mt-4" id="escuela" name="escuela" type="text" value="uninova" hidden> 
                                                 </div>
                                                 <div class="col-12">
-                                                    <button class="btn btn-primary btn-block mt-2">Continuar</button>
+                                                    <button class="btn btn-outline-warning btn-block mt-2">Continuar</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -320,7 +320,7 @@
                                             <p class="card-text">Universidad Modelo.</p>
                                             <div class="row">
                                                 <div class="col-12">                                                
-                                                    <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#modelo" aria-expanded="false" aria-controls="modelo">
+                                                    <button class="btn btn-outline-warning btn-block" type="button" data-toggle="collapse" data-target="#modelo" aria-expanded="false" aria-controls="modelo">
                                                         Llenar Formulario
                                                     </button>
                                                 </div>                                            
@@ -331,7 +331,7 @@
                                                     <input class="form-control mt-4" id="escuela" name="escuela" type="text" value="modelo" hidden> 
                                                 </div>
                                                 <div class="col-12">
-                                                    <button class="btn btn-primary btn-block mt-2">Continuar</button>
+                                                    <button class="btn btn-outline-warning btn-block mt-2">Continuar</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -347,7 +347,7 @@
                                             <p class="card-text">UNID Campus Chetumal.</p>
                                             <div class="row">
                                                 <div class="col-12">                                                
-                                                    <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#unidchetumal" aria-expanded="false" aria-controls="unidchetumal">
+                                                    <button class="btn btn-outline-warning btn-block" type="button" data-toggle="collapse" data-target="#unidchetumal" aria-expanded="false" aria-controls="unidchetumal">
                                                         Llenar Formulario
                                                     </button>
                                                 </div>                                            
@@ -358,7 +358,7 @@
                                                     <input class="form-control mt-4" id="escuela" name="escuela" type="text" value="unidchetumal" hidden> 
                                                 </div>
                                                 <div class="col-12">
-                                                    <button class="btn btn-primary btn-block mt-2">Continuar</button>
+                                                    <button class="btn btn-outline-warning btn-block mt-2">Continuar</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -375,7 +375,7 @@
                                             <p class="card-text">Universidad Pedagógica Nacional.</p>
                                             <div class="row">
                                                 <div class="col-12">                                                
-                                                    <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#upn" aria-expanded="false" aria-controls="upn">
+                                                    <button class="btn btn-outline-warning btn-block" type="button" data-toggle="collapse" data-target="#upn" aria-expanded="false" aria-controls="upn">
                                                         Llenar Formulario
                                                     </button>
                                                 </div>                                            
@@ -386,7 +386,7 @@
                                                     <input class="form-control mt-4" id="escuela" name="escuela" type="text" value="upn" hidden> 
                                                 </div>
                                                 <div class="col-12">
-                                                    <button class="btn btn-primary btn-block mt-2">Continuar</button>
+                                                    <button class="btn btn-outline-warning btn-block mt-2">Continuar</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -402,7 +402,7 @@
                                             <p class="card-text">Instituto Tecnológico de la Zona Maya.</p>
                                             <div class="row">
                                                 <div class="col-12">                                                
-                                                    <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#itzm" aria-expanded="false" aria-controls="itzm">
+                                                    <button class="btn btn-outline-warning btn-block" type="button" data-toggle="collapse" data-target="#itzm" aria-expanded="false" aria-controls="itzm">
                                                         Llenar Formulario
                                                     </button>
                                                 </div>                                            
@@ -413,7 +413,7 @@
                                                     <input class="form-control mt-4" id="escuela" name="escuela" type="text" value="itzm" hidden> 
                                                 </div>
                                                 <div class="col-12">
-                                                    <button class="btn btn-primary btn-block mt-2">Continuar</button>
+                                                    <button class="btn btn-outline-warning btn-block mt-2">Continuar</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -430,7 +430,7 @@
                                             <p class="card-text">Instituto Tecnológico Superior de FCP.</p>
                                             <div class="row">
                                                 <div class="col-12">                                                
-                                                    <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#itsfcp" aria-expanded="false" aria-controls="itsfcp">
+                                                    <button class="btn btn-outline-warning btn-block" type="button" data-toggle="collapse" data-target="#itsfcp" aria-expanded="false" aria-controls="itsfcp">
                                                         Llenar Formulario
                                                     </button>
                                                 </div>                                            
@@ -441,7 +441,7 @@
                                                     <input class="form-control mt-4" id="escuela" name="escuela" type="text" value="itsfcp" hidden> 
                                                 </div>
                                                 <div class="col-12">
-                                                    <button class="btn btn-primary btn-block mt-2">Continuar</button>
+                                                    <button class="btn btn-outline-warning btn-block mt-2">Continuar</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -457,7 +457,7 @@
                                             <p class="card-text">Universidad Privada de la Península de FCP.</p>
                                             <div class="row">
                                                 <div class="col-12">                                                
-                                                    <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#uppcarrillo" aria-expanded="false" aria-controls="uppcarrillo">
+                                                    <button class="btn btn-outline-warning btn-block" type="button" data-toggle="collapse" data-target="#uppcarrillo" aria-expanded="false" aria-controls="uppcarrillo">
                                                         Llenar Formulario
                                                     </button>
                                                 </div>                                            
@@ -468,7 +468,7 @@
                                                     <input class="form-control mt-4" id="escuela" name="escuela" type="text" value="uppcarrillo" hidden> 
                                                 </div>
                                                 <div class="col-12">
-                                                    <button class="btn btn-primary btn-block mt-2">Continuar</button>
+                                                    <button class="btn btn-outline-warning btn-block mt-2">Continuar</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -495,7 +495,7 @@
                                             <p class="card-text">CBTIS "Miguel Hidalgo y Costilla".</p>
                                             <div class="row">
                                                 <div class="col-12">                                                
-                                                    <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#cbtis253" aria-expanded="false" aria-controls="cbtis253">
+                                                    <button class="btn btn-outline-warning btn-block" type="button" data-toggle="collapse" data-target="#cbtis253" aria-expanded="false" aria-controls="cbtis253">
                                                         Llenar Formulario
                                                     </button>
                                                 </div>                                            
@@ -506,7 +506,7 @@
                                                     <input class="form-control mt-4" id="escuela" name="escuela" type="text" value="cbtis253" hidden> 
                                                 </div>
                                                 <div class="col-12">
-                                                    <button class="btn btn-primary btn-block mt-2">Continuar</button>
+                                                    <button class="btn btn-outline-warning btn-block mt-2">Continuar</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -522,7 +522,7 @@
                                             <p class="card-text">CBTIS "Ignacio Allende"</p>
                                             <div class="row">
                                                 <div class="col-12">                                                
-                                                    <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#cbtis214" aria-expanded="false" aria-controls="cbtis214">
+                                                    <button class="btn btn-outline-warning btn-block" type="button" data-toggle="collapse" data-target="#cbtis214" aria-expanded="false" aria-controls="cbtis214">
                                                         Llenar Formulario
                                                     </button>
                                                 </div>                                            
@@ -533,7 +533,7 @@
                                                     <input class="form-control mt-4" id="escuela" name="escuela" type="text" value="cbtis214" hidden> 
                                                 </div>
                                                 <div class="col-12">
-                                                    <button class="btn btn-primary btn-block mt-2">Continuar</button>
+                                                    <button class="btn btn-outline-warning btn-block mt-2">Continuar</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -549,7 +549,7 @@
                                             <p class="card-text">CETMAR # 10.</p>
                                             <div class="row">
                                                 <div class="col-12">                                                
-                                                    <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#cetmar" aria-expanded="false" aria-controls="cetmar">
+                                                    <button class="btn btn-outline-warning btn-block" type="button" data-toggle="collapse" data-target="#cetmar" aria-expanded="false" aria-controls="cetmar">
                                                         Llenar Formulario
                                                     </button>
                                                 </div>                                            
@@ -560,7 +560,7 @@
                                                     <input class="form-control mt-4" id="escuela" name="escuela" type="text" value="cetmar" hidden> 
                                                 </div>
                                                 <div class="col-12">
-                                                    <button class="btn btn-primary btn-block mt-2">Continuar</button>
+                                                    <button class="btn btn-outline-warning btn-block mt-2">Continuar</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -576,7 +576,7 @@
                                             <p class="card-text">CBTA # 11.</p>
                                             <div class="row">
                                                 <div class="col-12">                                                
-                                                    <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#cbta" aria-expanded="false" aria-controls="cbta">
+                                                    <button class="btn btn-outline-warning btn-block" type="button" data-toggle="collapse" data-target="#cbta" aria-expanded="false" aria-controls="cbta">
                                                         Llenar Formulario
                                                     </button>
                                                 </div>                                            
@@ -587,7 +587,7 @@
                                                     <input class="form-control mt-4" id="escuela" name="escuela" type="text" value="cbta" hidden> 
                                                 </div>
                                                 <div class="col-12">
-                                                    <button class="btn btn-primary btn-block mt-2">Continuar</button>
+                                                    <button class="btn btn-outline-warning btn-block mt-2">Continuar</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -603,7 +603,7 @@
                                             <p class="card-text">CONALEP</p>
                                             <div class="row">
                                                 <div class="col-12">                                                
-                                                    <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#conalep" aria-expanded="false" aria-controls="conalep">
+                                                    <button class="btn btn-outline-warning btn-block" type="button" data-toggle="collapse" data-target="#conalep" aria-expanded="false" aria-controls="conalep">
                                                         Llenar Formulario
                                                     </button>
                                                 </div>                                            
@@ -614,7 +614,7 @@
                                                     <input class="form-control mt-4" id="escuela" name="escuela" type="text" value="conalep" hidden> 
                                                 </div>
                                                 <div class="col-12">
-                                                    <button class="btn btn-primary btn-block mt-2">Continuar</button>
+                                                    <button class="btn btn-outline-warning btn-block mt-2">Continuar</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -630,7 +630,7 @@
                                             <p class="card-text">Plantel 1 y 2</p>
                                             <div class="row">
                                                 <div class="col-12">                                                
-                                                    <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#bachilleres" aria-expanded="false" aria-controls="bachilleres">
+                                                    <button class="btn btn-outline-warning btn-block" type="button" data-toggle="collapse" data-target="#bachilleres" aria-expanded="false" aria-controls="bachilleres">
                                                         Llenar Formulario
                                                     </button>
                                                 </div>                                            
@@ -641,7 +641,7 @@
                                                     <input class="form-control mt-4" id="escuela" name="escuela" type="text" value="bachilleres" hidden>  
                                                 </div>
                                                 <div class="col-12">
-                                                    <button class="btn btn-primary btn-block mt-2">Continuar</button>
+                                                    <button class="btn btn-outline-warning btn-block mt-2">Continuar</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -657,7 +657,7 @@
                                             <p class="card-text">Eva Samano</p>
                                             <div class="row">
                                                 <div class="col-12">                                                
-                                                    <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#evasamano" aria-expanded="false" aria-controls="evasamano">
+                                                    <button class="btn btn-outline-warning btn-block" type="button" data-toggle="collapse" data-target="#evasamano" aria-expanded="false" aria-controls="evasamano">
                                                         Llenar Formulario
                                                     </button>
                                                 </div>                                            
@@ -668,7 +668,7 @@
                                                     <input class="form-control mt-4" id="escuela" name="escuela" type="text" value="evasamano" hidden> 
                                                 </div>
                                                 <div class="col-12">
-                                                    <button class="btn btn-primary btn-block mt-2">Continuar</button>
+                                                    <button class="btn btn-outline-warning btn-block mt-2">Continuar</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -684,7 +684,7 @@
                                             <p class="card-text">CETEC Chetumal</p>
                                             <div class="row">
                                                 <div class="col-12">                                                
-                                                    <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#cetec" aria-expanded="false" aria-controls="cetec">
+                                                    <button class="btn btn-outline-warning btn-block" type="button" data-toggle="collapse" data-target="#cetec" aria-expanded="false" aria-controls="cetec">
                                                         Llenar Formulario
                                                     </button>
                                                 </div>                                            
@@ -695,7 +695,7 @@
                                                     <input class="form-control mt-4" id="escuela" name="escuela" type="text" value="cetec" hidden> 
                                                 </div>
                                                 <div class="col-12">
-                                                    <button class="btn btn-primary btn-block mt-2">Continuar</button>
+                                                    <button class="btn btn-outline-warning btn-block mt-2">Continuar</button>
                                                 </div>
                                             </div>
                                         </div>
