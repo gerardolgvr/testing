@@ -39,13 +39,13 @@
                         <ul>
                             <li>Asegúrate de tener conexión a internet.</li>
                             <li>Ten tu pre-contrato a la mano.</li>
-                            <li>Revisa nuestra galería para escoger correctamente tu paquete. <a href="http://www.studio17mx.com/#gallery" target="_blank">Galería</a></li>
+                            <li>Revisa nuestra galería para escoger correctamente tu paquete. <a href="paquetes_fotograficos.html#gallery" target="_blank">Galería</a></li>
                             <li>Te recomendamos llenar el formulario en una computadora.</li>
                             <li>Haz uso de la caja de comentarios u observaciones para especificar detalles específicos de tu paquete. Ejemplo: "Quiero que mi moldura sea rupestre", etc..</li>
                         </ul>
                         <p class="card-text"><span class="badge badge-default">Nota: </span> Solo se puede llenar una vez el formulario.</p>                        
                         <p class="card-text"><span class="badge badge-default">Nota: </span> Sí necesitas ayuda o tienes problemas al llenar el formulario no dudes en contactarnos.</p>
-                        <p class="card-text"><span class="badge badge-warning">Tel: 983-109-3854</span></p>
+                        <p class="card-text"><span class="badge badge-warning">Tel: 983-186-5294</span></p>
                         <p class="card-text"><span class="badge badge-warning">Correo: contacto@studio17mx.com</span></p>                        
                     </div>
                 </div>
@@ -181,12 +181,12 @@
                                             $statement->execute(array(':idEscuela' => $escuela));
                                             $nivel = $statement->fetch(); //recuperamos el nivel de institucion
 
-                                            $statement = $conexion->prepare('SELECT * FROM paquetes WHERE nivel = :nivelPaquetes');
+                                            $statement = $conexion->prepare('SELECT * FROM paquetes WHERE nivel = :nivelPaquetes ORDER BY id_paquete');
                                             $statement->execute(array(':nivelPaquetes' => $nivel['nivel']));
                                             $paquetes = $statement->fetchAll(); //recuperamos todos los paquetes de acuerdo al nivel de la institucion
                                                                                         
                                             foreach($paquetes as $fila){
-                                                echo'<OPTION VALUE="'.$fila['nombre_paquete'].$fila['nomenclatura'].'">'.$fila['nombre_paquete'].'</OPTION>';
+                                                echo'<OPTION VALUE="'.$fila['nombre_paquete'].'.'.$fila['material'].'.'.$fila['nomenclatura'].'">'.$fila['nombre_paquete'].'</OPTION>';
                                             }
                                             
                                         } catch (PDOException $e){
@@ -199,12 +199,12 @@
                                     if($nivel['nivel'] == 'Superior'){?>
                                         <div class="col-12 mb-3">
                                             <label for="base">Selecciona tu base:</label>
-                                            <select class="form-control" name="base" id="base" required>
+                                            <select class="form-control" name="base" id="base" onChange="selectBase(this.form)" required>
                                                 <option value="null" selected>Seleccionar base</option>                                            
                                             </select>
                                             <small class="form-text text-muted">Todos los paquetes incluyen complementos*</small>
                                             <small class="form-text text-muted">*Complementos: Toga, sesion fotos relajo, relajo impresa, fotos documentación, fotos de graduación, archivo digital</small>
-                                            <small class="form-text text-muted"><a href="index.html#gallery">Ver galería</a> de paquetes</small>                    
+                                            <small class="form-text text-muted"><a href="paquetes_fotograficos.html#gallery" target="_blank">Ver galería</a> de paquetes</small>                    
                                         </div>
                                     <?php
                                     }                            
@@ -212,8 +212,11 @@
 
                                                           
                                 </div>
-                                <div class="form-group row">                        
-                                    <div class="col-md-6 mb-3" id="piezas">
+                                <div class="form-group row">      
+                                    <div class="col-12">
+                                        <small class="form-text text-muted">Haz clic para ver los tipos de piezas <a href="paquetes_fotograficos.html#gallery" target="_blank">Ver piezas</a>. Luego haz click en tu nivel educativo y posteriormente haz click en piezas para verlas.</small>                    
+                                    </div>                  
+                                    <div class="col-md-6 mb-3 mt-3" id="piezas">
                                         <label>Selecciona las piezas: <span id="piezasTotales" class="text-muted" style="display:none;">0</span><span id="piezasRestantes" class="text-muted">0</span><span class="text-muted"> Máx</span></label>                                        
                                         <div class="form-check disabled">
                                             <label class="form-check-label">
@@ -251,8 +254,8 @@
                                             </label>
                                         </div>
                                     </div>                           
-                                    <div class="col-md-6 mb-3" id="colorBase">
-                                        <label>Color de base:</label>
+                                    <div class="col-md-6 mb-3 mt-3" id="colorBase">
+                                        <label>Color de base:</label>                                        
                                         <div class="form-check disabled">
                                             <label class="form-check-label">
                                                 <input type="radio" name="colorbase" id="negro" value="negro" class="form-check-input mr-2" disabled checked>Negro
@@ -277,7 +280,54 @@
                                             <label class="form-check-label">
                                                 <input type="radio" name="colorbase" id="vino" value="vino" class="form-check-input mr-2" disabled>Vino
                                             </label>
+                                        </div>   
+                                        <div class="form-check disabled">
+                                            <label class="form-check-label">
+                                                <input type="radio" name="colorfondo" id="tabaco" value="tabaco" class="form-check-input mr-2" disabled>Tabaco
+                                            </label>
+                                        </div>                                                                            
+                                    </div>
+                                    <div class="col-md-6 mb-3 mt-3" id="colorFondo">
+                                        <label>Color de fondo:</label>     
+                                        <div class="form-check disabled">
+                                            <label class="form-check-label">
+                                                <input type="radio" name="colorfondo" id="vainilla" value="vainilla" class="form-check-input mr-2" disabled checked>Vainilla
+                                            </label>
+                                        </div>                                   
+                                        <div class="form-check disabled">
+                                            <label class="form-check-label">
+                                                <input type="radio" name="colorfondo" id="negro" value="negro" class="form-check-input mr-2" disabled>Negro
+                                            </label>
                                         </div>
+                                        <div class="form-check disabled">
+                                            <label class="form-check-label">
+                                                <input type="radio" name="colorfondo" id="chocolate" value="chocolate" class="form-check-input mr-2" disabled>Chocolate
+                                            </label>
+                                        </div>
+                                        <div class="form-check disabled">
+                                            <label class="form-check-label">
+                                                <input type="radio" name="colorfondo" id="caoba" value="caoba" class="form-check-input mr-2" disabled>Caoba
+                                            </label>
+                                        </div>
+                                        <div class="form-check disabled">
+                                            <label class="form-check-label">
+                                                <input type="radio" name="colorfondo" id="nogal" value="nogal" class="form-check-input mr-2" disabled>Nogal
+                                            </label>
+                                        </div>
+                                        <div class="form-check disabled">
+                                            <label class="form-check-label">
+                                                <input type="radio" name="colorfondo" id="vino" value="vino" class="form-check-input mr-2" disabled>Vino
+                                            </label>
+                                        </div>    
+                                        <div class="form-check disabled">
+                                            <label class="form-check-label">
+                                                <input type="radio" name="colorfondo" id="tabaco" value="tabaco" class="form-check-input mr-2" disabled>Tabaco
+                                            </label>
+                                        </div>                                                                            
+                                    </div>
+                                    <div class="col-12">
+                                        <small class="form-text text-muted">Nota: Puedes repetir todas las piezas que quieras (de acuerdo a las piezas de tu paquete) a excepción de la panoramica. Ejemplo, puedes escoger  2 familiares y 1 panoramica. Otro Ejemplo: 2 libros de agradecimiento y 1 familiar. En caso de repetir alguna pieza favor de anotarlo en la caja final de comentarios y observaciones.</small>
+                                        <small class="form-text text-muted">En caso de repetir algun agradecimiento sigue las instrucciones en este <a href="docs/agradecimientos_studio17mx.pdf" target="_blank">documento</a> para enviarnos la frase faltante de la otra pieza</small>
                                     </div>
                                 </div>
                                 <div class="form-group row">
@@ -409,6 +459,9 @@
     <script src="js/jquery.validate.min.js"></script>  
 
     <script>
+        $(document).ready(function(){
+		$("#colorFondo").hide();
+	});
         $("#form").validate();
     </script>
     <script>
@@ -534,10 +587,22 @@
                 $('#colorBase').find(':radio').attr('disabled', 'true');
             });               
         }
+        function desahabilitarRadioColorFondo(){
+            $(document).ready(function(){
+                $('#colorFondo').find("div").addClass('disabled');
+                $('#colorFondo').find(':radio').attr('disabled', 'true');
+            });               
+        }
         function habilitarRadioColor(){
             $(document).ready(function(){
                 $('#colorBase').find("div").removeClass('disabled');
                 $('#colorBase').find(':radio').removeAttr('disabled');
+            });            
+        }
+        function habilitarRadioColorFondo(){
+            $(document).ready(function(){
+                $('#colorFondo').find("div").removeClass('disabled');
+                $('#colorFondo').find(':radio').removeAttr('disabled');
             });            
         }
         function desahabilitarChecksRegalos(){
@@ -625,7 +690,7 @@
             
         }
 
-        function cargarBasesGenerales(){
+        function cargarBasesMdf(){
             //obtenemos el select
             var baseSelect = document.getElementById('base');
             if(baseSelect != null){
@@ -646,10 +711,9 @@
                 item.innerText = "Cúbico (Rolex)";
                 baseSelect.appendChild(item);
             }
-            
         }
 
-        function cargarBasesGeneralesClasicas(){
+        function cargarBasesMdfPlus(){
             //obtenemos el select
             var baseSelect = document.getElementById('base');
             if(baseSelect != null){
@@ -669,16 +733,15 @@
                 item.value = "cubico";
                 item.innerText = "Cúbico (Rolex)";
                 baseSelect.appendChild(item);
-                //agregamos base cubico
+                //agregamos base galla
                 var item = document.createElement('option');
                 item.value = "galla";
                 item.innerText = "Galla";
                 baseSelect.appendChild(item);
             }
-            
         }
 
-        function cargarBasesMolduras(){
+        function cargarBasesMadera(){
             //obtenemos el select
             var baseSelect = document.getElementById('base');
             if(baseSelect != null){
@@ -687,6 +750,11 @@
                 var item = document.createElement('option');
                 item.value = "caracol";
                 item.innerText = "Caracol";
+                baseSelect.appendChild(item);
+                 //agregamos base olas
+                 var item = document.createElement('option');
+                item.value = "olas";
+                item.innerText = "Olas";
                 baseSelect.appendChild(item);
                 //agregamos base cuadricular
                 var item = document.createElement('option');
@@ -713,6 +781,11 @@
                 item.value = "vainilla";
                 item.innerText = "Vainilla";
                 baseSelect.appendChild(item);
+                //agregamos base italia
+                var item = document.createElement('option');
+                item.value = "italia";
+                item.innerText = "Italia";
+                baseSelect.appendChild(item);
                 //agregamos base cocodrilo
                 var item = document.createElement('option');
                 item.value = "cocodrilo";
@@ -732,6 +805,59 @@
             
         }
 
+        function cargarBasesMaderasPuras(){
+            //obtenemos el select
+            var baseSelect = document.getElementById('base');
+            if(baseSelect != null){
+                //agregamos las bases de molduras
+                //agregamos base caracol
+                var item = document.createElement('option');
+                item.value = "caracol";
+                item.innerText = "Caracol";
+                baseSelect.appendChild(item);
+                //agregamos base olas
+                var item = document.createElement('option');
+                item.value = "olas";
+                item.innerText = "Olas";
+                baseSelect.appendChild(item);
+                //agregamos base cuadricular
+                var item = document.createElement('option');
+                item.value = "cuadricular";
+                item.innerText = "Cuadricular";
+                baseSelect.appendChild(item);
+                //agregamos base florencia
+                var item = document.createElement('option');
+                item.value = "florencia";
+                item.innerText = "Florencia";
+                baseSelect.appendChild(item);
+                //agregamos base francia
+                var item = document.createElement('option');
+                item.value = "francia";
+                item.innerText = "Francia";
+                baseSelect.appendChild(item);
+                //agregamos base rupestre
+                var item = document.createElement('option');
+                item.value = "rupestre";
+                item.innerText = "Rupestre";
+                baseSelect.appendChild(item);
+                //agregamos base vainilla
+                var item = document.createElement('option');
+                item.value = "vainilla";
+                item.innerText = "Vainilla";
+                baseSelect.appendChild(item);
+                //agregamos base italia
+                var item = document.createElement('option');
+                item.value = "italia";
+                item.innerText = "Italia";
+                baseSelect.appendChild(item);
+                //agregamos base cocodrilo
+                var item = document.createElement('option');
+                item.value = "cocodrilo";
+                item.innerText = "Cocodrilo";
+                baseSelect.appendChild(item);                
+            }
+        }
+
         function cargarBasesEstrella(){
             //obtenemos el select
             var baseSelect = document.getElementById('base');
@@ -741,6 +867,11 @@
                 var item = document.createElement('option');
                 item.value = "cometa cristal";
                 item.innerText = "Cometa Cristal";
+                baseSelect.appendChild(item);
+                //agregamos base cometa normal
+                var item = document.createElement('option');
+                item.value = "cometa normal";
+                item.innerText = "Cometa Normal";
                 baseSelect.appendChild(item);
                 //agregamos base cometa orion
                 var item = document.createElement('option');
@@ -762,27 +893,30 @@
         }
 
         function cargarBasesDiamante(){
-            //obtenemos el select
             var baseSelect = document.getElementById('base');
             if(baseSelect != null){
-                //agregamos las bases diamante
-                //agregamos base vip doble
+                //agregamos las bases de madera
+                //agregamos base doble madera
                 var item = document.createElement('option');
                 item.value = "vip doble";
                 item.innerText = "VIP Doble";
                 baseSelect.appendChild(item);
-                //agregamos base vip triple
+                //agregamos base triple madera
                 var item = document.createElement('option');
                 item.value = "vip triple";
                 item.innerText = "VIP Triple";
                 baseSelect.appendChild(item);
-                //agregamos base vip rupestre
+                //agregamos base doble cristal
                 var item = document.createElement('option');
-                item.value = "vip rupestre";
-                item.innerText = "VIP Rupestre";
+                item.value = "cristal vip doble";
+                item.innerText = "Cristal VIP Doble";
                 baseSelect.appendChild(item);
-            }
-            
+                //agregamos base triple cristal
+                var item = document.createElement('option');
+                item.value = "cristal vip triple";
+                item.innerText = "Cristal VIP Triple";
+                baseSelect.appendChild(item);                            
+            }          
         }
 
         function cargarBasesDiamantePrepas(){
@@ -799,51 +933,66 @@
             
         }
 
-        function selectPaquete(form){
-            var selec = form.paquete.options;
-            var val;
+        function selectBase(form){
+            //recogemos informacion de la base
+            var selec = form.base.options;
+            var base;
             for(i=0; i < selec.length; i++){
-                if(selec[i].selected == true){
-                    val = selec[i].value;
-                    //console.log(selec[i].value);
+                if(selec[i].selected == true){                    
+                    base = selec[i].value;
                     break;
                 }
             }
             
-            var nomenclatura = val.substring((val.length - 3), val.length);            
-            
-            //console.log(val + " #"+val.length);
-            //alert(nomenclatura);
-            if(val.length > 4 && val.length <= 26){ //bases generales universidades
-                vaciarBases();
-                cargarBasesGenerales();
-            } else if(val.length == 49){
-                vaciarBases();
-                cargarBasesGeneralesClasicas();
+            //habilitamos y deshabilitamos colores de fondo según la base
+            if(base == 'null' || base == 'lineas' || base == 'cruzado' || base == 'cubico' || base == 'piscis' || base == 'cuadrato' || base == 'cometa cristal' || base == 'orion'){
+                $('#colorFondo').hide();
+                desahabilitarRadioColorFondo();
+            } else {
+                $('#colorFondo').show();
+                habilitarRadioColorFondo();
             }
-            else if(val.length == 50){ //bases diamante universidades
-                vaciarBases();
-                cargarBasesDiamantePrepas();
+
+        }
+
+        function selectPaquete(form){
+            var selec = form.paquete.options;
+            var val;
+            var paquete;
+            for(i=0; i < selec.length; i++){
+                if(selec[i].selected == true){
+                    paquete = selec[i].innerHTML; 
+                    val = selec[i].value;
+                    break;
+                }
             }
-            else if(val.length == 56){ //bases molduras universidades
+
+            //creamos una lista a partir del string [0] - nombre paquete [1] - material [2]-nomenclatura
+            dataList = val.split('.');            
+            var nomenclatura = dataList[2];      
+            let material = dataList[1];
+
+            if(material == 'mdf'){
                 vaciarBases();
-                cargarBasesMolduras();
-            } else if(val.length == 61){ //bases diamante y estrella universidades
-                vaciarBases();
-                var n = val.search("Diamante");
-                if(n > 0){
-                    cargarBasesDiamante();
+                if(paquete.substring(0, 13) == 'Línea Clásica'){
+                    cargarBasesMdfPlus();
                 } else {
-                    cargarBasesEstrella();
+                    cargarBasesMdf();
                 }                
-            }
-            else if(val.length == 63){
+            } else if(material == 'madera'){
+                vaciarBases();
+                if(paquete == 'Insignia S17'){
+                    cargarBasesMaderasPuras();
+                } else if(paquete.substring(0, 14) == 'Línea Diamante'){
+                    cargarBasesDiamante();
+                }
+                else {
+                    cargarBasesMadera();
+                }                
+            } else if(material == 'estrella'){
                 vaciarBases();
                 cargarBasesEstrella();
-            }
-            else {
-                vaciarBases();
-            }     
+            }  
 
             //limpiamos contadores de piezas y regalos
             var pRestantes = document.getElementById('piezasRestantes');
@@ -855,7 +1004,10 @@
             rRestantes.innerHTML = 0;  
             rTotales.innerHTML = 0; 
 
-            //verificamos las opciones que escogio el usuario
+            //reseteamos los colores de fondo
+            $('#colorFondo').hide();
+            desahabilitarRadioColorFondo();
+            //verificamos las opciones que escogio el usuario            
             if(nomenclatura == 'ull'){ //caso que no haya escogido nada aún (primer opcion)
                 //deshabilitando opciones de seleccion
                 desahabilitarChecksPiezas();

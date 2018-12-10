@@ -17,13 +17,17 @@ $telefono = $_POST['telefono'];
 $correo = $_POST['correo'];
 $sexo = $_POST['sexo'];
 $tamanotoga = $_POST['tamanotoga'];
-$nombre_paquete = substr($_POST['paquete'], 0, -3);
+$infoPaquete = explode(".", $_POST['paquete']); 
+$nombre_paquete = $infoPaquete[0];
 if($base = $_POST['base'] != null){
     $base = $_POST['base'];
 } else {
     $base = 'Prepa';
 }
 $color_base = $_POST['colorbase'];
+if($_POST['colorfondo'] != null){
+    $color_base .= '/' . $_POST['colorfondo'];
+}
 $comentarios = $_POST['comentarios'];
 
 //insertando datos de cliente
@@ -59,15 +63,26 @@ try {
         $id_paquete = $resultado['id_paquete'];
 
     } else { //caso que sea un paquete testimonial
-        //verificamos que nivel de testimonial es (superior o medio-superior)
-        $statement = $conexion -> prepare('SELECT nivel FROM escuelas WHERE id_escuela = :id_escuela');
-        $statement -> execute(array(':id_escuela' => $id_escuela));
+        //guardando el id del paquete en base a la clave del formulario
+        $statement = $conexion -> prepare('SELECT id_paquete FROM paquetes WHERE nombre_paquete = :paquete');
+        $statement -> execute(array(':paquete' => $nombre_paquete));
         $resultado = $statement->fetch();
         //recuperamos el valor   recuperado
-        $nivel = $resultado['nivel'];
+        $id_paquete = $resultado['id_paquete'];
 
-        //determinamos el id del paquete testimonial segun el nivel
-        $id_paquete = ($nivel == 'Superior') ? 1 : 17;      
+        //si no es un insignia
+        if($id_paquete != 2){
+            //verificamos que nivel de testimonial es (superior o medio-superior)
+            $statement = $conexion -> prepare('SELECT nivel FROM escuelas WHERE id_escuela = :id_escuela');
+            $statement -> execute(array(':id_escuela' => $id_escuela));
+            $resultado = $statement->fetch();
+            //recuperamos el valor   recuperado
+            $nivel = $resultado['nivel'];
+
+            //determinamos el id del paquete testimonial segun el nivel
+            $id_paquete = ($nivel == 'Superior') ? 1 : 18; 
+        }
+             
     }    
 
     //creando la fecha
