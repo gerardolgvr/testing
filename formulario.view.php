@@ -19,7 +19,8 @@
                     <?php
                         try {
                             //$conexion = new PDO('mysql:host=localhost;dbname=studio17mx', 'root', '');
-                            $conexion = new PDO('mysql:host=localhost;dbname=studiom3_studio17mx', 'studiom3_User17', 'Sistemas17');
+                            //$conexion = new PDO('mysql:host=localhost;dbname=studiom3_studio17mx', 'studiom3_User17', 'Sistemas17');
+                            $conexion = new PDO('mysql:host=instance.c2u0nkrhn8of.us-west-2.rds.amazonaws.com;dbname=studiom3_studio17mx', 'studiom3_User17', 'Sistemas17', array(PDO::ATTR_PERSISTENT => true));
                             $conexion->exec("set names utf8");
                             
                             // mysqli_query("set names 'utf8'");
@@ -77,7 +78,8 @@
                                             <?php
                                             try {
                                                 //$conexion = new PDO('mysql:host=localhost;dbname=studio17mx', 'root', '');
-                                                $conexion = new PDO('mysql:host=localhost;dbname=studiom3_studio17mx', 'studiom3_User17', 'Sistemas17');
+                                                //$conexion = new PDO('mysql:host=localhost;dbname=studiom3_studio17mx', 'studiom3_User17', 'Sistemas17');
+                                                $conexion = new PDO('mysql:host=instance.c2u0nkrhn8of.us-west-2.rds.amazonaws.com;dbname=studiom3_studio17mx', 'studiom3_User17', 'Sistemas17', array(PDO::ATTR_PERSISTENT => true));
                                                 $conexion->exec("set names utf8");
                                                 
                                                 //mysqli_query("set names 'utf8'"); 
@@ -172,7 +174,8 @@
                                             <?php
                                         try {
                                             //$conexion = new PDO('mysql:host=localhost;dbname=studio17mx', 'root', '');
-                                            $conexion = new PDO('mysql:host=localhost;dbname=studiom3_studio17mx', 'studiom3_User17', 'Sistemas17');
+                                            //$conexion = new PDO('mysql:host=localhost;dbname=studiom3_studio17mx', 'studiom3_User17', 'Sistemas17');
+                                            $conexion = new PDO('mysql:host=instance.c2u0nkrhn8of.us-west-2.rds.amazonaws.com;dbname=studiom3_studio17mx', 'studiom3_User17', 'Sistemas17', array(PDO::ATTR_PERSISTENT => true));
                                             $conexion->exec("set names utf8");
                                             
                                             //mysqli_query("set names 'utf8'"); 
@@ -372,7 +375,8 @@
                                             <?php
                                             try {
                                                 //$conexion = new PDO('mysql:host=localhost;dbname=studio17mx', 'root', '');
-                                                $conexion = new PDO('mysql:host=localhost;dbname=studiom3_studio17mx', 'studiom3_User17', 'Sistemas17');
+                                                //$conexion = new PDO('mysql:host=localhost;dbname=studiom3_studio17mx', 'studiom3_User17', 'Sistemas17');
+                                                $conexion = new PDO('mysql:host=instance.c2u0nkrhn8of.us-west-2.rds.amazonaws.com;dbname=studiom3_studio17mx', 'studiom3_User17', 'Sistemas17', array(PDO::ATTR_PERSISTENT => true));
                                                 $conexion->exec("set names utf8");
                                                 
                                                 //mysqli_query("set names 'utf8'"); 
