@@ -8,8 +8,8 @@
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <meta name="description" content="Paquetes de graduación, sesiones de fotos y viajes generacionales">
   <meta name="author" content="Studio 17 mx">
-  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-  <link rel="icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="https://s3-us-west-2.amazonaws.com/info17/favicon.png" type="image/x-icon">
+  <link rel="icon" href="https://s3-us-west-2.amazonaws.com/info17/favicon.png" type="image/x-icon">
   <title>Studio 17 MX</title>
   
 
@@ -37,7 +37,7 @@
     <div class="container">
       <!-- <a class="navbar-brand" href="#">Gra<span>freez</span></a> -->
       <a class="navbar-brand" href="index.html">
-        <img src="img/logo.png" width="120" height="50" class="d-inline-block align-top" alt="">
+      <img src="https://s3-us-west-2.amazonaws.com/info17/logo.png" width="120" height="50" class="d-inline-block align-top" alt="">
       </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse1" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> ☰ </button>
       <div class="collapse navbar-collapse" id="navbarCollapse1">
@@ -57,28 +57,22 @@
   <!-- Slider main container -->
   <div class="swiper-container main-slider d-print-none" id="myCarousel">
     <div class="swiper-wrapper">
-        <div class="swiper-slide slider-bg-position d-print-none" style="background:url('img/slide1.jpg')" data-hash="slide1">
-          <h2>¡Felicidades!<small>Por cumplir un nuevo logro!</small></h2>
+        <div class="swiper-slide slider-bg-position" style="background:url('https://s3-us-west-2.amazonaws.com/info17/s1.jpg')" data-hash="slide1">
+          <h2>¡Todo en el mismo lugar!<small>¡Paquetes fotográficos, eventos y viajes!</small></h2>
         </div>
-        <div class="swiper-slide slider-bg-position d-print-none" style="background:url('img/slide2.jpg')" data-hash="slide2">
-          <h2>¡Recuerda tu logro! <small>Con un paquete de graduación.</small></h2>
+        <div class="swiper-slide slider-bg-position" style="background:url('https://s3-us-west-2.amazonaws.com/info17/s2.jpg')" data-hash="slide2">
+          <h2>¡A festejar! <small>Un logro así merece ser celebrado.</small></h2>
         </div>
-        <div class="swiper-slide slider-bg-position d-print-none" style="background:url('img/slide3.jpg')" data-hash="slide2">
-          <h2>Cobertura en graduación <small>Completamente gratis.</small></h2>
+        <div class="swiper-slide slider-bg-position" style="background:url('https://s3-us-west-2.amazonaws.com/info17/s3.jpg')" data-hash="slide2">
+          <h2>Experiencias <small>Studio 17 MX</small></h2>
         </div>
-        <div class="swiper-slide slider-bg-position d-print-none" style="background:url('img/slide4.jpg')" data-hash="slide2">
+        <div class="swiper-slide slider-bg-position" style="background:url('https://s3-us-west-2.amazonaws.com/info17/s4.jpg')" data-hash="slide2">
           <h2>¡Arma tu paquete! <small>Completamente personalizable.</small></h2>
         </div>
-        <div class="swiper-slide slider-bg-position d-print-none" style="background:url('img/slide5.jpg')" data-hash="slide2">
-          <h2>Anillos incluidos <small>Gran variedad en plata y oro.</small></h2>
+        <div class="swiper-slide slider-bg-position" style="background:url('https://s3-us-west-2.amazonaws.com/info17/s5.jpg')" data-hash="slide2">
+          <h2>¡Momentos únicos! <small>Más que una típica ceremonia.</small></h2>
         </div>
-        <div class="swiper-slide slider-bg-position d-print-none" style="background:url('img/slide6.jpg')" data-hash="slide2">
-          <h2>¡Sesión de relajo! <small>Incluida en todos los paquetes.</small></h2>
-        </div>
-        <div class="swiper-slide slider-bg-position d-print-none" style="background:url('img/slide7.jpg')" data-hash="slide2">
-          <h2>¡Felicidades C. P. ! <small>Mucho éxito.</small></h2>
-        </div>
-        <div class="swiper-slide slider-bg-position d-print-none" style="background:url('img/slide8.jpg')" data-hash="slide2">
+        <div class="swiper-slide slider-bg-position" style="background:url('https://s3-us-west-2.amazonaws.com/info17/s7.jpg')" data-hash="slide2">
           <h2>Paquetes de Pre-Fiesta <small>Barra libre incluida.</small></h2>
         </div>
     </div>

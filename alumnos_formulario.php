@@ -8,8 +8,8 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Paquetes de graduación, sesiones de fotos y viajes generacionales">
     <meta name="author" content="Studio 17 mx">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://s3-us-west-2.amazonaws.com/info17/favicon.png" type="image/x-icon">
+    <link rel="icon" href="https://s3-us-west-2.amazonaws.com/info17/favicon.png" type="image/x-icon">
     <title>Studio 17 MX - Mi Formulario</title>
     
     
@@ -48,7 +48,7 @@
         <div class="container">
         <!-- <a class="navbar-brand" href="#">Gra<span>freez</span></a> -->
         <a class="navbar-brand" href="index.html">
-            <img src="img/logo.png" width="120" height="50" class="d-inline-block align-top" alt="">
+            <img src="https://s3-us-west-2.amazonaws.com/info17/logo.png" width="120" height="50" class="d-inline-block align-top" alt="">
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse1" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> ☰ </button>
         <div class="collapse navbar-collapse" id="navbarCollapse1">
@@ -68,30 +68,24 @@
     <!-- Slider main container -->
     <div class="swiper-container main-slider" id="myCarousel">
         <div class="swiper-wrapper">
-            <div class="swiper-slide slider-bg-position" style="background:url('img/slide1.jpg')" data-hash="slide1">
-                <h2>¡Felicidades!<small>Por cumplir un nuevo logro!</small></h2>
-            </div>
-            <div class="swiper-slide slider-bg-position" style="background:url('img/slide2.jpg')" data-hash="slide2">
-                <h2>¡Recuerda tu logro! <small>Con un paquete de graduación.</small></h2>
-            </div>
-            <div class="swiper-slide slider-bg-position" style="background:url('img/slide3.jpg')" data-hash="slide2">
-                <h2>Cobertura en graduación <small>Completamente gratis.</small></h2>
-            </div>
-            <div class="swiper-slide slider-bg-position" style="background:url('img/slide4.jpg')" data-hash="slide2">
-                <h2>¡Arma tu paquete! <small>Completamente personalizable.</small></h2>
-            </div>
-            <div class="swiper-slide slider-bg-position" style="background:url('img/slide5.jpg')" data-hash="slide2">
-                <h2>Anillos incluidos <small>Gran variedad en plata y oro.</small></h2>
-            </div>
-            <div class="swiper-slide slider-bg-position" style="background:url('img/slide6.jpg')" data-hash="slide2">
-                <h2>¡Sesión de relajo! <small>Incluida en todos los paquetes.</small></h2>
-            </div>
-            <div class="swiper-slide slider-bg-position" style="background:url('img/slide7.jpg')" data-hash="slide2">
-                <h2>¡Felicidades C. P. ! <small>Mucho éxito.</small></h2>
-            </div>
-            <div class="swiper-slide slider-bg-position" style="background:url('img/slide8.jpg')" data-hash="slide2">
-                <h2>Paquetes de Pre-Fiesta <small>Barra libre incluida.</small></h2>
-            </div>
+        <div class="swiper-slide slider-bg-position" style="background:url('https://s3-us-west-2.amazonaws.com/info17/s1.jpg')" data-hash="slide1">
+          <h2>¡Todo en el mismo lugar!<small>¡Paquetes fotográficos, eventos y viajes!</small></h2>
+        </div>
+        <div class="swiper-slide slider-bg-position" style="background:url('https://s3-us-west-2.amazonaws.com/info17/s2.jpg')" data-hash="slide2">
+          <h2>¡A festejar! <small>Un logro así merece ser celebrado.</small></h2>
+        </div>
+        <div class="swiper-slide slider-bg-position" style="background:url('https://s3-us-west-2.amazonaws.com/info17/s3.jpg')" data-hash="slide2">
+          <h2>Experiencias <small>Studio 17 MX</small></h2>
+        </div>
+        <div class="swiper-slide slider-bg-position" style="background:url('https://s3-us-west-2.amazonaws.com/info17/s4.jpg')" data-hash="slide2">
+          <h2>¡Arma tu paquete! <small>Completamente personalizable.</small></h2>
+        </div>
+        <div class="swiper-slide slider-bg-position" style="background:url('https://s3-us-west-2.amazonaws.com/info17/s5.jpg')" data-hash="slide2">
+          <h2>¡Momentos únicos! <small>Más que una típica ceremonia.</small></h2>
+        </div>
+        <div class="swiper-slide slider-bg-position" style="background:url('https://s3-us-west-2.amazonaws.com/info17/s7.jpg')" data-hash="slide2">
+          <h2>Paquetes de Pre-Fiesta <small>Barra libre incluida.</small></h2>
+        </div>
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
@@ -123,7 +117,7 @@
                             <div class="col-12 col-sm-6 col-lg-4 mb-3">
                                 <form action="formulario.php" method="post">
                                     <div class="card shadow">
-                                            <img class="card-img-top img-fluid"  src="img/itche.jpg" alt="Card image cap">
+                                            <img class="card-img-top img-fluid"  src="https://s3-us-west-2.amazonaws.com/info17/itche.jpg" alt="Card image cap">
                                             <div class="card-block">
                                                 <h5 class="card-title">ITCH <small><span class="badge badge-pill badge-warning">Chetumal</span></small></h5>
                                                 <p class="card-text">Instituto Tecnológico de Chetumal.</p>
@@ -150,7 +144,7 @@
                             <div class="col-12 col-sm-6 col-lg-4 mb-3">
                                 <form action="formulario.php" method="post">
                                     <div class="card shadow">
-                                        <img class="card-img-top img-fluid"  src="img/uqroo.jpg" alt="Card image cap">
+                                        <img class="card-img-top img-fluid"  src="https://s3-us-west-2.amazonaws.com/info17/uqroo.jpg" alt="Card image cap">
                                         <div class="card-block">
                                             <h5 class="card-title">UQROO <small><span class="badge badge-pill badge-warning">Chetumal</span></small></h5>
                                             <p class="card-text">Universidad de Quintana Roo.</p>
@@ -177,7 +171,7 @@
                             <div class="col-12 col-sm-6 col-lg-4 mb-3">
                                 <form action="formulario.php" method="post">
                                     <div class="card shadow">
-                                        <img class="card-img-top img-fluid"  src="img/cren.jpg" alt="Card image cap">
+                                        <img class="card-img-top img-fluid"  src="https://s3-us-west-2.amazonaws.com/info17/cren.jpg" alt="Card image cap">
                                         <div class="card-block">
                                             <h5 class="card-title">CREN Bacalar <small><span class="badge badge-pill badge-warning">Bacalar</span></small></h5>
                                             <p class="card-text">Centro de Educación Regional Normal.</p>
@@ -205,7 +199,7 @@
                             <div class="col-12 col-sm-6 col-lg-4 mb-3">
                                 <form action="formulario.php" method="post">
                                     <div class="card shadow">
-                                        <img class="card-img-top img-fluid"  src="img/upb.jpg" alt="Card image cap">
+                                        <img class="card-img-top img-fluid"  src="https://s3-us-west-2.amazonaws.com/info17/upb.jpg" alt="Card image cap">
                                         <div class="card-block">
                                             <h5 class="card-title">UPB <small><span class="badge badge-pill badge-warning">Bacalar</span></small></h5>
                                             <p class="card-text">Universidad Politécnica de Bacalar.</p>
@@ -232,7 +226,7 @@
                             <div class="col-12 col-sm-6 col-lg-4 mb-3">
                                 <form action="formulario.php" method="post">
                                     <div class="card shadow">
-                                        <img class="card-img-top img-fluid"  src="img/ut.jpg" alt="Card image cap">
+                                        <img class="card-img-top img-fluid"  src="https://s3-us-west-2.amazonaws.com/info17/ut.jpg" alt="Card image cap">
                                         <div class="card-block">
                                             <h5 class="card-title">UT <small><span class="badge badge-pill badge-warning">Chetumal</span></small></h5>
                                             <p class="card-text">Universidad Tecnológica de Chetumal.</p>
@@ -260,7 +254,7 @@
                             <div class="col-12 col-sm-6 col-lg-4 mb-3">
                                 <form action="formulario.php" method="post">
                                     <div class="card shadow">
-                                        <img class="card-img-top img-fluid"  src="img/vizcaya.jpg" alt="Card image cap">
+                                        <img class="card-img-top img-fluid"  src="https://s3-us-west-2.amazonaws.com/info17/vizcaya.jpg" alt="Card image cap">
                                         <div class="card-block">
                                             <h5 class="card-title">Universidad Vizcaya <small><span class="badge badge-pill badge-warning">Chetumal</span></small></h5>
                                             <p class="card-text">Universidad Vizcaya de las Américas.</p>
@@ -287,7 +281,7 @@
                             <div class="col-12 col-sm-6 col-lg-4 mb-3">
                                 <form action="formulario.php" method="post">
                                     <div class="card shadow">
-                                        <img class="card-img-top img-fluid"  src="img/uninova.jpg" alt="Card image cap">
+                                        <img class="card-img-top img-fluid"  src="https://s3-us-west-2.amazonaws.com/info17/uninova.jpg" alt="Card image cap">
                                         <div class="card-block">
                                             <h5 class="card-title">UNINOVA <small><span class="badge badge-pill badge-warning">Chetumal</span></small></h5>
                                             <p class="card-text">Universidad UNINOVA.</p>
@@ -314,7 +308,7 @@
                             <div class="col-12 col-sm-6 col-lg-4 mb-3">
                                 <form action="formulario.php" method="post">
                                     <div class="card shadow">
-                                        <img class="card-img-top img-fluid"  src="img/modelo.jpg" alt="Card image cap">
+                                        <img class="card-img-top img-fluid"  src="https://s3-us-west-2.amazonaws.com/info17/modelo.jpg" alt="Card image cap">
                                         <div class="card-block">
                                             <h5 class="card-title">Modelo <small><span class="badge badge-pill badge-warning">Chetumal</span></small></h5>
                                             <p class="card-text">Universidad Modelo.</p>
@@ -341,7 +335,7 @@
                             <div class="col-12 col-sm-6 col-lg-4 mb-3">
                                 <form action="formulario.php" method="post">
                                     <div class="card shadow">
-                                        <img class="card-img-top img-fluid"  src="img/unid.jpg" alt="Card image cap">
+                                        <img class="card-img-top img-fluid"  src="https://s3-us-west-2.amazonaws.com/info17/unid.jpg" alt="Card image cap">
                                         <div class="card-block">
                                             <h5 class="card-title">UNID <small><span class="badge badge-pill badge-warning">Chetumal</span></small></h5>
                                             <p class="card-text">UNID Campus Chetumal.</p>
@@ -369,7 +363,7 @@
                             <div class="col-12 col-sm-6 col-lg-4 mb-3">
                                 <form action="formulario.php" method="post">
                                     <div class="card shadow">
-                                        <img class="card-img-top img-fluid"  src="img/upn.jpg" alt="Card image cap">
+                                        <img class="card-img-top img-fluid"  src="https://s3-us-west-2.amazonaws.com/info17/upn.jpg" alt="Card image cap">
                                         <div class="card-block">
                                             <h5 class="card-title">UPN U. 231 <small><span class="badge badge-pill badge-warning">Chetumal</span></small></h5>
                                             <p class="card-text">Universidad Pedagógica Nacional.</p>
@@ -396,7 +390,7 @@
                             <div class="col-12 col-sm-6 col-lg-4 mb-3">
                                 <form action="formulario.php" method="post">
                                     <div class="card shadow">
-                                        <img class="card-img-top img-fluid"  src="img/itzm.jpg" alt="Card image cap">
+                                        <img class="card-img-top img-fluid"  src="https://s3-us-west-2.amazonaws.com/info17/itzm.jpg" alt="Card image cap">
                                         <div class="card-block">
                                             <h5 class="card-title">ITZM <small><span class="badge badge-pill badge-warning">Chetumal</span></small></h5>
                                             <p class="card-text">Instituto Tecnológico de la Zona Maya.</p>
@@ -424,7 +418,7 @@
                             <div class="col-12 col-sm-6 col-lg-4 mb-3">
                                 <form action="formulario.php" method="post">
                                     <div class="card shadow">
-                                        <img class="card-img-top img-fluid"  src="img/itcarrillo.jpg" alt="Card image cap">
+                                        <img class="card-img-top img-fluid"  src="https://s3-us-west-2.amazonaws.com/info17/itcarrillo.jpg" alt="Card image cap">
                                         <div class="card-block">
                                             <h5 class="card-title">ITS FCP <small><span class="badge badge-pill badge-warning">FCP</span></small></h5>
                                             <p class="card-text">Instituto Tecnológico Superior de FCP.</p>
@@ -451,7 +445,7 @@
                             <div class="col-12 col-sm-6 col-lg-4 mb-3">
                                 <form action="formulario.php" method="post">
                                     <div class="card shadow">
-                                        <img class="card-img-top img-fluid"  src="img/upp.jpg" alt="Card image cap">
+                                        <img class="card-img-top img-fluid"  src="https://s3-us-west-2.amazonaws.com/info17/upp.jpg" alt="Card image cap">
                                         <div class="card-block">
                                             <h5 class="card-title">UPP FCP <small><span class="badge badge-pill badge-warning">FCP</span></small></h5>
                                             <p class="card-text">Universidad Privada de la Península de FCP.</p>
@@ -489,7 +483,7 @@
                             <div class="col-12 col-sm-6 col-lg-4 mb-3">
                                 <form action="formulario.php" method="post">
                                     <div class="card shadow">
-                                        <img class="card-img-top img-fluid"  src="img/253.jpg" alt="Card image cap">
+                                        <img class="card-img-top img-fluid"  src="https://s3-us-west-2.amazonaws.com/info17/253.jpg" alt="Card image cap">
                                         <div class="card-block">
                                             <h5 class="card-title">CBTis #253 <small><span class="badge badge-pill badge-warning">Chetumal</span></small></h5>
                                             <p class="card-text">CBTIS "Miguel Hidalgo y Costilla".</p>
@@ -516,7 +510,7 @@
                             <div class="col-12 col-sm-6 col-lg-4 mb-3">
                                 <form action="formulario.php" method="post">
                                     <div class="card shadow">
-                                        <img class="card-img-top img-fluid"  src="img/214.jpg" alt="Card image cap">
+                                        <img class="card-img-top img-fluid"  src="https://s3-us-west-2.amazonaws.com/info17/214.jpg" alt="Card image cap">
                                         <div class="card-block">
                                             <h5 class="card-title">CBTis #214 <small><span class="badge badge-pill badge-warning">Chetumal</span></small></h5>
                                             <p class="card-text">CBTIS "Ignacio Allende"</p>
@@ -543,7 +537,7 @@
                             <div class="col-12 col-sm-6 col-lg-4 mb-3">
                                 <form action="formulario.php" method="post">
                                     <div class="card shadow">
-                                        <img class="card-img-top img-fluid"  src="img/cetmar.jpg" alt="Card image cap">
+                                        <img class="card-img-top img-fluid"  src="https://s3-us-west-2.amazonaws.com/info17/cetmar.jpg" alt="Card image cap">
                                         <div class="card-block">
                                             <h5 class="card-title">CETMAR <small><span class="badge badge-pill badge-warning">Chetumal</span></small></h5>
                                             <p class="card-text">CETMAR # 10.</p>
@@ -570,7 +564,7 @@
                             <div class="col-12 col-sm-6 col-lg-4 mb-3">
                                 <form action="formulario.php" method="post">
                                     <div class="card shadow">
-                                        <img class="card-img-top img-fluid"  src="img/cbta.jpg" alt="Card image cap">
+                                        <img class="card-img-top img-fluid"  src="https://s3-us-west-2.amazonaws.com/info17/cbta.jpg" alt="Card image cap">
                                         <div class="card-block">
                                             <h5 class="card-title">CBTA <small><span class="badge badge-pill badge-warning">Chetumal</span></small></h5>
                                             <p class="card-text">CBTA # 11.</p>
@@ -597,7 +591,7 @@
                             <div class="col-12 col-sm-6 col-lg-4 mb-3">
                                 <form action="formulario.php" method="post">
                                     <div class="card shadow">
-                                        <img class="card-img-top img-fluid"  src="img/conalep.jpg" alt="Card image cap">
+                                        <img class="card-img-top img-fluid"  src="https://s3-us-west-2.amazonaws.com/info17/conalep.jpg" alt="Card image cap">
                                         <div class="card-block">
                                             <h5 class="card-title">CONALEP <small><span class="badge badge-pill badge-warning">Chetumal</span></small></h5>
                                             <p class="card-text">CONALEP</p>
@@ -624,7 +618,7 @@
                             <div class="col-12 col-sm-6 col-lg-4 mb-3">
                                 <form action="formulario.php" method="post">
                                     <div class="card shadow">
-                                        <img class="card-img-top img-fluid"  src="img/bachilleres.jpg" alt="Card image cap">
+                                        <img class="card-img-top img-fluid"  src="https://s3-us-west-2.amazonaws.com/info17/bachilleres.jpg" alt="Card image cap">
                                         <div class="card-block">
                                             <h5 class="card-title">Bachilleres <small><span class="badge badge-pill badge-warning">Chetumal</span></small></h5>
                                             <p class="card-text">Plantel 1 y 2</p>
@@ -651,7 +645,7 @@
                             <div class="col-12 col-sm-6 col-lg-4 mb-3">
                                 <form action="formulario.php" method="post">
                                     <div class="card shadow">
-                                        <img class="card-img-top img-fluid"  src="img/eva.jpg" alt="Card image cap">
+                                        <img class="card-img-top img-fluid"  src="https://s3-us-west-2.amazonaws.com/info17/eva.jpg" alt="Card image cap">
                                         <div class="card-block">
                                             <h5 class="card-title">Eva Samano <small><span class="badge badge-pill badge-warning">Chetumal</span></small></h5>
                                             <p class="card-text">Eva Samano</p>
@@ -678,7 +672,7 @@
                             <div class="col-12 col-sm-6 col-lg-4 mb-3">
                                 <form action="formulario.php" method="post">
                                     <div class="card shadow">
-                                        <img class="card-img-top img-fluid"  src="img/cetecChetumal.png" alt="Card image cap">
+                                        <img class="card-img-top img-fluid"  src="https://s3-us-west-2.amazonaws.com/info17/cetecChetumal.png" alt="Card image cap">
                                         <div class="card-block">
                                             <h5 class="card-title">CETEC <small><span class="badge badge-pill badge-warning">Chetumal</span></small></h5>
                                             <p class="card-text">CETEC Chetumal</p>

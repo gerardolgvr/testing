@@ -8,8 +8,8 @@
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <meta name="description" content="Paquetes de graduación, sesiones de fotos y viajes generacionales">
   <meta name="author" content="Studio 17 mx">
-  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-  <link rel="icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="https://s3-us-west-2.amazonaws.com/info17/favicon.png" type="image/x-icon">
+  <link rel="icon" href="https://s3-us-west-2.amazonaws.com/info17/favicon.png" type="image/x-icon">
   <title>Studio 17 MX</title>
   
 
@@ -42,7 +42,7 @@
   <nav class="navbar navbar-toggleable-md mb-4 top-bar navbar-static-top sps sps--abv">
     <div class="container">
       <a class="navbar-brand" href="index.html">
-        <img src="img/logo.png" width="120" height="50" class="d-inline-block align-top" alt="">
+      <img src="https://s3-us-west-2.amazonaws.com/info17/logo.png" width="120" height="50" class="d-inline-block align-top" alt="">
       </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse1" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> ☰ </button>
       <div class="collapse navbar-collapse" id="navbarCollapse1">
@@ -62,24 +62,24 @@
   <!-- Slider main container -->
   <div class="swiper-container main-slider" id="myCarousel">
     <div class="swiper-wrapper">
-      <div class="swiper-slide slider-bg-position" style="background:url('img/s1.jpg')" data-hash="slide1">
-        <h2>¡Todo en el mismo lugar!<small>¡Paquetes fotográficos, eventos y viajes!</small></h2>
-      </div>
-      <div class="swiper-slide slider-bg-position" style="background:url('img/s2.jpg')" data-hash="slide2">
-        <h2>¡A festejar! <small>Un logro así merece ser celebrado.</small></h2>
-      </div>
-      <div class="swiper-slide slider-bg-position" style="background:url('img/s3.jpg')" data-hash="slide2">
-        <h2>Experiencias <small>Studio 17 MX</small></h2>
-      </div>
-      <div class="swiper-slide slider-bg-position" style="background:url('img/s4.jpg')" data-hash="slide2">
-        <h2>¡Arma tu paquete! <small>Completamente personalizable.</small></h2>
-      </div>
-      <div class="swiper-slide slider-bg-position" style="background:url('img/s5.jpg')" data-hash="slide2">
-        <h2>¡Momentos únicos! <small>Más que una típica ceremonia.</small></h2>
-      </div>
-      <div class="swiper-slide slider-bg-position" style="background:url('img/s7.jpg')" data-hash="slide2">
-        <h2>Paquetes de Pre-Fiesta <small>Barra libre incluida.</small></h2>
-      </div>
+    <div class="swiper-slide slider-bg-position" style="background:url('https://s3-us-west-2.amazonaws.com/info17/s1.jpg')" data-hash="slide1">
+          <h2>¡Todo en el mismo lugar!<small>¡Paquetes fotográficos, eventos y viajes!</small></h2>
+        </div>
+        <div class="swiper-slide slider-bg-position" style="background:url('https://s3-us-west-2.amazonaws.com/info17/s2.jpg')" data-hash="slide2">
+          <h2>¡A festejar! <small>Un logro así merece ser celebrado.</small></h2>
+        </div>
+        <div class="swiper-slide slider-bg-position" style="background:url('https://s3-us-west-2.amazonaws.com/info17/s3.jpg')" data-hash="slide2">
+          <h2>Experiencias <small>Studio 17 MX</small></h2>
+        </div>
+        <div class="swiper-slide slider-bg-position" style="background:url('https://s3-us-west-2.amazonaws.com/info17/s4.jpg')" data-hash="slide2">
+          <h2>¡Arma tu paquete! <small>Completamente personalizable.</small></h2>
+        </div>
+        <div class="swiper-slide slider-bg-position" style="background:url('https://s3-us-west-2.amazonaws.com/info17/s5.jpg')" data-hash="slide2">
+          <h2>¡Momentos únicos! <small>Más que una típica ceremonia.</small></h2>
+        </div>
+        <div class="swiper-slide slider-bg-position" style="background:url('https://s3-us-west-2.amazonaws.com/info17/s7.jpg')" data-hash="slide2">
+          <h2>Paquetes de Pre-Fiesta <small>Barra libre incluida.</small></h2>
+        </div>
     </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
@@ -111,14 +111,14 @@
         <div class="col-md-4 products-services-box">
           <h3 class="blog-title"><a href="alumnos_formulario.php#escuelas">Llenar formulario</a></h3>
           <p class="blog-content">Elige tu paquete, piezas, colores ¡COMPLETAMENTE PERSONALIZADO!</p>
-          <div class="products-services-image-block"> <img style="width: 80%;" src="img/formulario_al.jpg" alt="" class="img-fluid"> </div>
+          <div class="products-services-image-block"> <img style="width: 80%;" src="https://s3-us-west-2.amazonaws.com/info17/formulario_al.jpg" alt="" class="img-fluid"> </div>
           <p class="blog-content">Recuerda tener a la mano la copia de tu contrato para llenar el formulario.</p>
           <a href="alumnos_formulario.php#escuelas" class="btn btn-outline-warning" >Continuar</a>
         </div>
         <div class="col-md-4 products-services-box">
           <h3 class="blog-title"><a href="estadoPaquete.html">Estado de mi paquete</a></h3>
           <p class="blog-content">Consulta tus piezas, abonos y fechas destacadas donde quiera que estés.</p>
-          <div class="products-services-image-block"> <img style="width: 80%;" src="img/paquete_al.jpg" alt="" class="img-fluid"> </div>
+          <div class="products-services-image-block"> <img style="width: 80%;" src="https://s3-us-west-2.amazonaws.com/info17/paquete_al.jpg" alt="" class="img-fluid"> </div>
           <p class="blog-content">Recuerda que puedes realizar tus abonos vía deposito.</p>
           <button type="button" class="btn btn-outline-warning"  data-toggle="collapse" data-target="#consulta" aria-expanded="false" aria-controls="consulta">Continuar</button>
           <div class="row collapse" id="consulta">
@@ -135,7 +135,7 @@
         <div class="col-md-4 products-services-box">
           <h3 class="blog-title"><a href="#">Votación de anillos</a></h3>
           <p class="blog-content">¡Vota por tu favorito! Tenemos una selección de anillos que te encantará.</p>
-          <div class="products-services-image-block"> <img style="width: 80%;" src="img/anillos_al.jpg" alt="" class="img-fluid"> </div>
+          <div class="products-services-image-block"> <img style="width: 80%;" src="https://s3-us-west-2.amazonaws.com/info17/anillos_al.jpg" alt="" class="img-fluid"> </div>
           <p class="blog-content">Recuerda que la votación es anónima, rápida y sencilla.</p>
           <button type="button" class="btn btn-outline-warning">Continuar</button>
         </div>
@@ -146,7 +146,7 @@
         <div class="col-md-4 products-services-box">
           <h3 class="blog-title"><a href="docs/agradecimientos_studio17mx.pdf" target="_blank">Frases de Agradecimientos</a></h3>
           <p class="blog-content">¡Tenemos una selección de frases que te encantarán!</p>
-          <div class="products-services-image-block"> <img style="width: 80%;" src="img/agras.jpg" alt="" class="img-fluid"> </div>
+          <div class="products-services-image-block"> <img style="width: 80%;" src="https://s3-us-west-2.amazonaws.com/info17/agras.jpg" alt="" class="img-fluid"> </div>
           <p class="blog-content">Recuerda que también puedes crear la tuya si así lo deseas.</p>
           <a href="docs/agradecimientos_studio17mx.pdf" target="_blank" class="btn btn-outline-warning" >Ver frases</a>
         </div>
