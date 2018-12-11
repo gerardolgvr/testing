@@ -322,7 +322,7 @@ section {
 /* ABOUT SECTION
 -------------------------------------------------- */
 .about-sec {
-	background: url('../img/conocenos.jpg') no-repeat center center;
+	background: url('https://s3-us-west-2.amazonaws.com/info17/conocenos.jpg') no-repeat center center;
 	background-size: cover;
 	color: #fff;
 	position: relative;
@@ -397,7 +397,7 @@ section {
 }
 /*-------------- Video section  --------------*/
 .video-sec {
-	background: url('../img/conocenos.jpg') 50% 0 repeat-y fixed;
+	background: url('https://s3-us-west-2.amazonaws.com/info17/conocenos.jpg') 50% 0 repeat-y fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
@@ -555,7 +555,7 @@ section {
 /* CALL TO ACTION
 -------------------------------------------------- */
 .cta-block {
-	background: url("../img/cta-bg.jpg") repeat;
+	background: url("https://s3-us-west-2.amazonaws.com/info17/cta-bg.jpg") repeat;
 	padding: 30px 0;
 	color: #fff;
 	text-transform: capitalize
@@ -665,7 +665,7 @@ section {
 /* QA SECTION
 -------------------------------------------------- */
 .qa-section {
-	background: url(../img/section-bg-white.jpg) no-repeat 0 bottom #f5f5f5;
+	background: url('https://s3-us-west-2.amazonaws.com/info17/section-bg-white.jpg') no-repeat 0 bottom #f5f5f5;
 	background-size: cover;
 }
 .qa-section h2 {
@@ -744,7 +744,7 @@ section {
 /* CONTACT SECTION
 -------------------------------------------------- */
 .contact-sec {
-	background: url(../img/formulario.jpg) no-repeat 0 bottom;
+	background: url('https://s3-us-west-2.amazonaws.com/info17/formulario.jpg') no-repeat 0 bottom;
 	background-size: cover;
 }
 .contact-sec h2 {
